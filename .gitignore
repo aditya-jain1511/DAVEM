@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# json-server --watch db.json -p 3001 -d 2000
