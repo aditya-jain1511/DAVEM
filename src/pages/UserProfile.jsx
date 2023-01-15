@@ -31,6 +31,11 @@ export default function UserProfile() {
                         </div>
                         <hr />
                         <div className="row">
+                            <div className="col-12 col-md-4">Department:</div>
+                            <div className="col-12 col-md">{user.department}</div>
+                        </div>
+                        <hr />
+                        <div className="row">
                             <div className="col-12 col-md-4">User Type:</div>
                             <div className="col-12 col-md">{user.userType}</div>
                         </div>
