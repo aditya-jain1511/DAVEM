@@ -1,0 +1,36 @@
+.nav-bar{
+    background: white;
+    color: rgb(56,56,56);
+}
+.logo {
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: rgb(56, 56, 56);
+  font-family: "Monument Extended";
+  padding: 0px;
+}
+
+.navigation-top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgb(56, 56, 56);
+  background-color: white;
+}
+
+.logo-img{
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+    mix-blend-mode:multiply;
+}
+
+.compAva{
+    background-color: rgb(114, 179, 179);
+    color: white;
+    padding: 5px;
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 5px;
+}

@@ -1,12 +1,22 @@
-import React from "react";
+import "./index.css";
+import Pages from "./pages/Pages";
+import { BrowserRouter } from "react-router-dom";
+import { LoginContext } from "./context/LoginContext";
+import { UserContext } from "./context/UserContext";
+import { useState } from "react";
 
 function App() {
+  const [login, setLogin] = useState(false)
+  const [user, setUser] = useState({})
+
   return (
-    <div className="App">
-      <header className="App-header">
-        hello world
-      </header>
-    </div>
+    <BrowserRouter>
+      <LoginContext.Provider value = {{login, setLogin}}>
+        <UserContext.Provider value = {{user, setUser}}>
+          <Pages />
+        </UserContext.Provider>
+      </LoginContext.Provider>
+    </BrowserRouter>
   );
 }
 
