@@ -20,6 +20,7 @@ code {
 }
 
 .jumbotron{
+  min-height: 80vh;
   border-radius: .3rem;
   padding:70px 30px 70px 30px;
   margin:0px auto;

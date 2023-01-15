@@ -7,6 +7,7 @@
   font-size: 1.7rem;
   font-weight: 400;
   color: rgb(56, 56, 56);
+  text-decoration: none;
   font-family: "Monument Extended";
   padding: 0px;
 }
@@ -14,6 +15,7 @@
 .navigation-top {
   display: flex;
   justify-content: flex-start;
+  text-decoration: none;
   align-items: center;
   color: rgb(56, 56, 56);
   background-color: white;

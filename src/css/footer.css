@@ -1,0 +1,33 @@
+.footer{
+    padding: 1%;
+    background: #033B57;
+    padding: 50px;
+    color: white;
+}
+.footer-img{
+    width: 25%;
+    margin-bottom: 20px;
+    mix-blend-mode: multiply;
+    margin-right: 10px;
+}
+.faicons{
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+.footerhead{
+    font-weight: 500;
+    font-size: 110%;
+    margin-bottom: 20px;
+}
+.footercont{
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.bottomfoot{
+    font-size: 80%;
+}
+.footer-logo{
+    font-size: 2rem;
+}
