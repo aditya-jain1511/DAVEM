@@ -7,7 +7,7 @@ export const EVENTS= [
     startDate: " Wed Aug 2 2023 11:00:00 GMT +0530(India Standard Time)",
     endDate: "Wed Aug 2 2023 17:00:00 GMT +0530 (India Standard Time)",
     name: 'Freshers Chrisma 2023',
-    coverImage: "event0.jpg",
+    coverImage: "assets/images/event0.jpg",
     description: "Freshers 2023 EVENT",
     status: "open"
     },
@@ -19,7 +19,7 @@ export const EVENTS= [
     startDate: " Wed Feb 22 2023 10:00:00 GMT +0530(India Standard Time)",
     endDate: "Fri Feb 24 2023 17:00:00 GMT +0530 (India Standard Time)",
     name: 'Youth Fest 2023',
-    coverImage: "event0.jpg",
+    coverImage: "assets/images/event0.jpg",
     description: "Interzonal Youth Fest 2023",
     status: "open"
     },
@@ -31,7 +31,7 @@ export const EVENTS= [
     startDate: " Fri Sept 15 2023 12:00:00 GMT +0530(India Standard Time)",
     endDate: "Fri Sept 15 2023 15:00:00 GMT +0530 (India Standard Time)",
     name: "Placement talk Seminar",
-    coverImage: "event0.jpg",
+    coverImage: "assets/images/event0.jpg",
     description: "Placement talk Seminar",
     status: "open"
     },
@@ -43,7 +43,7 @@ export const EVENTS= [
     startDate: " Wed Aug 10 2023 11:00:00 GMT +0530(India Standard Time)",
     endDate: "Wed Aug 24 2023 13:00:00 GMT +0530 (India Standard Time)",
     name: "Pooja",
-    coverImage: "event0.jpg",
+    coverImage: "assets/images/event0.jpg",
     description: "Pooja",
     status: "open"
     },
@@ -55,7 +55,7 @@ export const EVENTS= [
     startDate: " Fri Oct 13 2023 11:00:00 GMT +0530(India Standard Time)",
     endDate: "Fri Oct 13 2023 13:00:00 GMT +0530 (India Standard Time)",
     name: "Sports Day",
-    coverImage: "event0.jpg",
+    coverImage: "assets/images/event0.jpg",
     description: "College Sports day EVENT",
     status: "open"
     },
@@ -67,7 +67,7 @@ export const EVENTS= [
     startDate: " Fri Oct 13 2022 11:00:00 GMT +0530(India Standard Time)",
     endDate: "Mon Oct 16 2022 13:00:00 GMT +0530 (India Standard Time)",
     name: "Football Tournament",
-    coverImage: "event0.jpg",
+    coverImage: "assets/images/event0.jpg",
     description: "Interbatch Football Tournament",
     status: "closed"
     }

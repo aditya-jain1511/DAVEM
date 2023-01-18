@@ -26,7 +26,7 @@ function Pages() {
         <div>
             <Header />
                 <Routes>
-                    <Route path="/home" element={<Home />} />
+                    <Route path="/home" element={<Home upcomingEvents = {upcomingEvents}/>} />
                     <Route path="/contacts" element={<Contact />} />
                     {
                         (login === true)

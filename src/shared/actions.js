@@ -23,5 +23,5 @@ export const upcomingEvents = () =>{
             events.push(event)
         }
     }
-    console.log(events)
+    return events
 }
