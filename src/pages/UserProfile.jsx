@@ -1,6 +1,6 @@
 import React from 'react'
 import { useContext } from 'react';
-import { Button, Table } from 'reactstrap';
+import { Button } from 'reactstrap';
 import { LoginContext } from '../context/LoginContext';
 import { UserContext } from '../context/UserContext';
 
@@ -11,9 +11,9 @@ export default function UserProfile() {
     return (
         <div className="jumbotron">
             <div className="container">
-                <h2>User Details:</h2>
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-lg-6 col-12">
+                        <h2>User Details:</h2>
                         <hr />
                         <div className="row">
                             <div className="col-12 col-md-4">UserId:</div>
@@ -60,7 +60,7 @@ export default function UserProfile() {
                             <div className="col-12 col-md">{user.rollno}</div>
                         </div>
                         <hr />
-                        <Button color="dark" outline size='sm' onClick = {()=> setLogin(false)}>Logout</Button>
+                        <Button color="dark" outline size='sm' onClick = {()=> {setLogin(false); setUser({})} }>Logout</Button>
                     </div>
                 </div>
             </div>

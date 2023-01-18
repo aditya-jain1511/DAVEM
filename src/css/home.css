@@ -1,0 +1,100 @@
+/* General styles */
+.homepage-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Hero section styles */
+  .hero-section {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    background-color: #286090;
+  }
+  
+  /* Upcoming events section styles */
+  .event-preview-section {
+    margin-top: 50px;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .event-preview-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Event preview styles */
+  .event-preview {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .event-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .event-info {
+    padding: 20px;
+  }
+  
+  .event-name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .event-date {
+    font-size: 1.25em;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .event-link {
+    display: block;
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .event-link:hover {
+    background-color: #286090;
+  }
+  
+  

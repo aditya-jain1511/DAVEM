@@ -47,6 +47,14 @@ function Header() {
                                 <Link className='nav-link' to="/home">Home</Link>
                             </NavItem>
                             <NavItem>
+                                {
+                                    (login===true && user.userType !== 'student') ? 
+                                        <Link className='nav-link' to="/admin"> Admin </Link> 
+                                        : 
+                                        null
+                                }
+                            </NavItem>
+                            <NavItem>
                                 <Link className='nav-link' to="/events">Events</Link>
                             </NavItem>
                             <NavItem>

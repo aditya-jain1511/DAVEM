@@ -1,13 +1,21 @@
 import React from "react";
+import { useContext } from "react";
+
+import { Navigate, Route, Routes } from "react-router-dom";
+
 import Home from "./Home";
 import Login from "./Login";
+import Contact from "./Contact";
 import UserProfile from "./UserProfile";
-import { Navigate, Route, Routes } from "react-router-dom";
+import Admin from "./Admin";
+import Events from "./Events";
+
 import Header from "../sectors/Header";
 import Footer from "../sectors/Footer";
+
+import {validate, upcomingEvents} from "../shared/actions"
+
 import { LoginContext } from '../context/LoginContext';
-import { useContext } from "react";
-import { USERS } from "../shared/users"
 import { UserContext } from "../context/UserContext";
 
 function Pages() {
@@ -19,15 +27,30 @@ function Pages() {
             <Header />
                 <Routes>
                     <Route path="/home" element={<Home />} />
+                    <Route path="/contacts" element={<Contact />} />
                     {
                         (login === true)
-                            ? <Route path="/login" element={<Navigate replace to="/home"/>} />
-                            : <Route path="/login" element={<Login users = {USERS}/>} />
+                            ? (<>
+                                <Route path="/user-profile" element={<UserProfile />} />
+                                <Route path="/events" element={<Events />} />
+                                <Route path="/events/:id" element={<Events />} />
+                            </>)
+                            : (<>
+                                <Route path="/login" element={<Login validate={validate} />} />
+                                <Route path="/events/:id" element={<Login validate={validate} />} />
+                                <Route path="/events" element={<Login validate={validate} />} />
+                            </>)
                     }
                     {
-                        (login === false)
-                            ? <Route path="/user-profile" element={<Navigate replace to="/home"/>} />
-                            : <Route path="/user-profile" element={<UserProfile />} />
+                        (login===true && user.userType !== 'student')
+                        ? (<>
+                            <Route path="/admin" element={<Admin />} />
+                            <Route path="/create-event" element={<Admin />} />
+                            <Route path="/create-comp" element={<Admin />} />
+                            <Route path="/create-user" element={<Admin />} />
+                            <Route path="/generate-report" element={<Admin />} />
+                        </>)
+                        : null
                     }
                     <Route path="*" element={<Navigate replace to="/home" />} />
                 </Routes>
