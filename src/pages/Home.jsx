@@ -9,29 +9,21 @@ const Home = ({upcomingEvents}) => {
 
   const upcomEvents = events.map((event) => {
     const date = new Date(event.startDate).toDateString()
+    const description = event.description.substring(0,100) + "..."
     return (
-      // <div key={event.id} className="event-preview">
-      //   <img src={event.coverImage} alt="Event 1" className="event-image" />
-      //   <div className="event-info">
-      //     <h3 className="event-name">{event.name}</h3>
-      //     <p className="event-date">{date}</p>
-      //     <Link to="/events/0" className="event-link">View Details</Link>
-      //   </div>
-      // </div>
-      <div className='col-12 col-lg-4 px-4'>
-
+      <div key={event.id} className='col-12 col-lg-4 p-4'>
         <Card>
           <img alt={event.eventId} src={event.coverImage} />
           <CardBody>
             <CardTitle tag="h5">{event.name}</CardTitle>
             <CardSubtitle className="mb-2 text-muted" tag="h6">
-              {event.eventType}
+              {event.eventType} - {date}
             </CardSubtitle>
             <CardText>
-              {event.description}
+              {description}
             </CardText>
             <Link to={`/events/${event.id}`}>
-              <Button>View Details</Button>
+              <Button color='primary'>View Details</Button>
             </Link>
           </CardBody>
         </Card>
@@ -50,13 +42,16 @@ const Home = ({upcomingEvents}) => {
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <h3 className="col-12 col-lg-3">Upcoming Events</h3>
-            <Link className="col-12 col-lg-2 text-end more-event" to="/events">
+            <Link className="col-12 col-lg-2 text-end more-event d-none d-lg-block" to="/events">
               <h6>More Events →</h6>
             </Link>
           </div>
-          <div className='row align-items-center justify-content-between'>
+          <div className='row justify-content-between'>
             {upcomEvents}
           </div>
+          <Link className="col-12 col-lg-2 text-center more-event d-block d-lg-none" to="/events">
+              <Button>More Events</Button>
+          </Link>
         </div>
       </div>
     </div>

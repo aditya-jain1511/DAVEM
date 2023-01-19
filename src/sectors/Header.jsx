@@ -37,7 +37,7 @@ function Header() {
             <div className='col-12'>
                 <Navbar expand="md" light className="nav-bar">
                     <div className="navigation-top">
-                        <img src="assets/images/daviet-logo.png" alt="Daviet Logo" className="logo-img"/>
+                        <img src="/assets/images/daviet-logo.png" alt="Daviet Logo" className="logo-img"/>
                         <Link to={"/home"} className="logo">DAVEM</Link>
                     </div>
                     <NavbarToggler onClick={toggleNav} />

@@ -65,7 +65,7 @@ export const USERS = [
         department: "NA"
     },
     {
-        id: 20,
+        id: 5,
         userId: 'TEACH000',
         name: 'Reeta Bharadwaj',
         userType: 'teacher',
@@ -78,7 +78,7 @@ export const USERS = [
         department: "IT"
     },
     {
-        id: 21,
+        id: 6,
         userId: 'TEACH001',
         name: 'Gagan Bharadwaj',
         userType: 'teacher',
@@ -91,9 +91,9 @@ export const USERS = [
         department: "IT"
     },
     {
-        id: 22,
+        id: 7,
         userId: 'TEACH002',
-        name: 'Teach two',
+        name: 'Raman Sharma',
         userType: 'teacher',
         phone: "9876543210",
         email: "teach_two@xyz.edu",
@@ -104,7 +104,7 @@ export const USERS = [
         department: "CSE"
     },
     {
-        id: 23,
+        id: 8,
         userId: 'TEACH003',
         name: 'Teach Three',
         userType: 'teacher',
@@ -117,7 +117,7 @@ export const USERS = [
         department: "CSE"
     },
     {
-        id: 24,
+        id: 9,
         userId: 'TEACH004',
         name: 'Teach Four',
         userType: 'teacher',
@@ -131,7 +131,7 @@ export const USERS = [
     },
     
     {
-        id: 50,
+        id: 10,
         userId: 'STU40319',
         name: 'Aditya Jain',
         userType: 'student',
@@ -144,7 +144,7 @@ export const USERS = [
         department: "IT"
     },
     {
-        id: 51,
+        id: 11,
         userId: 'STU42019',
         name: 'HarnoorDeep Singh',
         userType: 'student',
@@ -157,7 +157,7 @@ export const USERS = [
         department: "IT"
     },
     {
-        id: 52,
+        id: 12,
         userId: 'STU42119',
         name: 'Harman Preet',
         userType: 'student',
@@ -170,7 +170,7 @@ export const USERS = [
         department: "IT"
     },
     {
-        id: 53,
+        id: 13,
         userId: 'STU40719',
         name: 'Deepesh Singh',
         userType: 'student',
@@ -183,7 +183,7 @@ export const USERS = [
         department: "IT"
     },
     {
-        id: 54,
+        id: 14,
         userId: 'STU40119',
         name: 'Aastha Narula',
         userType: 'student',
@@ -196,7 +196,7 @@ export const USERS = [
         department: "IT"
     },
     {
-        id: 55,
+        id: 15,
         userId: 'STU40219',
         name: 'Aadit kumar',
         userType: 'student',
@@ -209,7 +209,7 @@ export const USERS = [
         department: "IT"
     },
     {
-        id: 56,
+        id: 16,
         userId: 'STU40419',
         name: 'Akil Mehta',
         userType: 'student',
@@ -222,7 +222,7 @@ export const USERS = [
         department: "IT"
     },
     {
-        id: 57,
+        id: 17,
         userId: 'STU30119',
         name: 'Harnoor Gandhi',
         userType: 'student',
@@ -235,7 +235,7 @@ export const USERS = [
         department: "CSE"
     },
     {
-        id: 58,
+        id: 18,
         userId: 'STU30219',
         name: 'segal chadha',
         userType: 'student',
@@ -248,7 +248,7 @@ export const USERS = [
         department: "CSE"
     },
     {
-        id: 59,
+        id: 19,
         userId: 'STU30319',
         name: 'anshika kohli',
         userType: 'student',
@@ -261,7 +261,7 @@ export const USERS = [
         department: "CSE"
     },
     {
-        id: 60,
+        id: 20,
         userId: 'STU30419',
         name: 'anamika chauhan',
         userType: 'student',
@@ -274,7 +274,7 @@ export const USERS = [
         department: "CSE"
     },
     {
-        id: 61,
+        id: 21,
         userId: 'STU30519',
         name: 'Shruti Garg',
         userType: 'student',
@@ -287,7 +287,7 @@ export const USERS = [
         department: "CSE"
     },
     {
-        id: 62,
+        id: 22,
         userId: 'TEST0619',
         name: 'test Test',
         userType: 'student',
@@ -300,7 +300,7 @@ export const USERS = [
         department: "CSE"
     },
     {
-        id: 63,
+        id: 23,
         userId: 'Test0719',
         name: 'test test02',
         userType: 'student',

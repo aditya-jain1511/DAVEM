@@ -9,11 +9,12 @@ import Contact from "./Contact";
 import UserProfile from "./UserProfile";
 import Admin from "./Admin";
 import Events from "./Events";
+import EventDetails from "./EventDetail";
 
 import Header from "../sectors/Header";
 import Footer from "../sectors/Footer";
 
-import {validate, upcomingEvents} from "../shared/actions"
+import {validate, upcomingEvents, fetchEvent, incharge, ongoingEvents, closedEvents} from "../shared/actions"
 
 import { LoginContext } from '../context/LoginContext';
 import { UserContext } from "../context/UserContext";
@@ -27,13 +28,14 @@ function Pages() {
             <Header />
                 <Routes>
                     <Route path="/home" element={<Home upcomingEvents = {upcomingEvents}/>} />
+                    <Route path="/profile/:id" element={<Home upcomingEvents = {upcomingEvents}/>} />
                     <Route path="/contacts" element={<Contact />} />
                     {
                         (login === true)
                             ? (<>
                                 <Route path="/user-profile" element={<UserProfile />} />
-                                <Route path="/events" element={<Events />} />
-                                <Route path="/events/:id" element={<Events />} />
+                                <Route path="/events" element={<Events upcomingEvents = {upcomingEvents} ongoingEvents={ongoingEvents} closedEvents={closedEvents} />} />
+                                <Route path="/events/:id" element={<EventDetails fetchEvent = {fetchEvent} incharge = {incharge}/>} />
                             </>)
                             : (<>
                                 <Route path="/login" element={<Login validate={validate} />} />

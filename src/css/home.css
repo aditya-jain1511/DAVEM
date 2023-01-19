@@ -45,18 +45,6 @@
     margin-bottom: 20px;
   }
   
-   
-  .event-link {
-    display: block;
-    background-color: #337ab7;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 4px;
-    text-align: center;
-    text-decoration: none;
-    transition: background-color 0.2s ease-in-out;
-  }
-  
   .event-link:hover {
     background-color: #286090;
   }

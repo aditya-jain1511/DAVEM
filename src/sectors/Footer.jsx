@@ -20,7 +20,7 @@ function Footer() {
     <div className="container">
       <div className="row align-items-start" style={{ textAlign: "left" }}>
         <div className="col-12 col-lg-3">
-        <img src="assets/images/daviet-logo.png" alt="Daviet Logo" className="footer-img"/>
+        <img src="/assets/images/daviet-logo.png" alt="Daviet Logo" className="footer-img"/>
         <span className="footer-logo">DAVEM</span>
           <div style={{ marginBottom: "20px" }}>
             Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam
