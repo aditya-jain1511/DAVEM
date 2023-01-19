@@ -311,5 +311,18 @@ export const USERS = [
         gender: "female",
         rollno: "1903838",
         department: "ECE"
+    },
+    {
+        id: 24,
+        userId: 'TEACH005',
+        name: 'Vishal Rao',
+        userType: 'teacher',
+        phone: "9876543210",
+        email: "teacher005@xyz.edu",
+        username: "vishal_rao",
+        password: "0000",
+        gender: "male",
+        rollno: "NA",
+        department: "ECE"
     }
   ];

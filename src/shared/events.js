@@ -9,7 +9,9 @@ export const EVENTS = [
         name: 'Freshers Chrisma 2023',
         coverImage: "/assets/images/event0.jpg",
         description: "Freshers 2023 EVENT. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque",
-        status: "open"
+        status: "open",
+        venue: "VENUE001",
+        department: "CULTURE"
     },
     {
         id: 1,
@@ -21,7 +23,9 @@ export const EVENTS = [
         name: 'Youth Fest 2023',
         coverImage: "/assets/images/event0.jpg",
         description: "Interzonal Youth Fest 2023 is being conducted in our college DAVIET this year and we will be graced with presence of director of IKGPTU. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque!",
-        status: "open"
+        status: "open",
+        venue: "VENUE001",
+        department: "CULTURE"
     },
     {
         id: 2,
@@ -33,7 +37,9 @@ export const EVENTS = [
         name: "Placement talk Seminar",
         coverImage: "/assets/images/event0.jpg",
         description: "Placement talk Seminar. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque",
-        status: "open"
+        status: "open",
+        venue: "VENUE003",
+        department: "TPO"
     },
     {
         id: 3,
@@ -45,7 +51,9 @@ export const EVENTS = [
         name: "Pooja",
         coverImage: "/assets/images/event0.jpg",
         description: "Pooja. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque",
-        status: "open"
+        status: "open",
+        venue: "VENUE002",
+        department: "CULTURE"
     },
     {
         id: 4,
@@ -57,7 +65,9 @@ export const EVENTS = [
         name: "Sports Day",
         coverImage: "/assets/images/event0.jpg",
         description: "College Sports day EVENT. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque",
-        status: "open"
+        status: "open",
+        venue: "VENUE000",
+        department: "SPORTS"
     },
     {
         id: 5,
@@ -69,7 +79,9 @@ export const EVENTS = [
         name: "Football Tournament",
         coverImage: "/assets/images/event0.jpg",
         description: "Interbatch Football Tournament. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque",
-        status: "closed"
+        status: "closed",
+        venue: "VENUE000",
+        department: "SPORTS"
     },
     {
         id: 6,
@@ -81,7 +93,9 @@ export const EVENTS = [
         name: "Basketball Tournament",
         coverImage: "/assets/images/event0.jpg",
         description: "Interbatch Basketball Tournament. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque",
-        status: "closed"
+        status: "closed",
+        venue: "VENUE000",
+        department: "SPORTS"
     },
     {
         id: 7,
@@ -90,10 +104,12 @@ export const EVENTS = [
         eventType: "Seminar",
         startDate: " Thu Jan 19 2023 11:00:00 GMT +0530(India Standard Time)",
         endDate: "Thu Jan 26 2023 13:00:00 GMT +0530 (India Standard Time)",
-        name: "Database requirement and future prospects",
+        name: "Database requirement and future prospects for IT",
         coverImage: "/assets/images/event0.jpg",
         description: "Database requirement and future prospects. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque",
-        status: "open"
+        status: "open",
+        venue: "VENUE002",
+        department: "IT"
     }
 ];
 

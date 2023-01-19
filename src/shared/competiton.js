@@ -9,7 +9,9 @@ export const COMPETITONS = [
         name: "Introduction and Ramp Walk Round",
         coverImage: "/assets/images/event0.jpg",
         description: "Ramp walk round of freshers",
-        status: "open"
+        status: "open",
+        venue: "VENUE001",
+        department: "CULTURE"
     },
     {
         id: 1,
@@ -21,7 +23,9 @@ export const COMPETITONS = [
         name: "Introduction Ramp Walk Round",
         coverImage: "/assets/images/event0.jpg",
         description: "Ramp walk round of freshers",
-        status: "open"
+        status: "open",
+        venue: "VENUE001",
+        department: "CULTURE"
     },
     {
         id: 2,
@@ -33,7 +37,9 @@ export const COMPETITONS = [
         name: "Question Round",
         coverImage: "/assets/images/event0.jpg",
         description: "Talent Question/Answers Round",
-        status: "open"
+        status: "open",
+        venue: "VENUE001",
+        department: "CULTURE"
     },
     {
         id: 3,
@@ -45,7 +51,9 @@ export const COMPETITONS = [
         name: "Talent Round",
         coverImage: "/assets/images/event0.jpg",
         description: "Talent Question/Answers Round",
-        status: "open"
+        status: "open",
+        venue: "VENUE001",
+        department: "CULTURE"
     },
     {
         id: 4,
@@ -57,7 +65,9 @@ export const COMPETITONS = [
         name: "Prize Distribution",
         coverImage: "/assets/images/event0.jpg",
         description: "Distributing Prizes to the winners",
-        status: "open"
+        status: "open",
+        venue: "VENUE001",
+        department: "CULTURE"
     },
     {
         id: 5,
@@ -69,7 +79,9 @@ export const COMPETITONS = [
         name: "Bhangra competition",
         coverImage: "/assets/images/event0.jpg",
         description: "Interzonal Bhangra competiton",
-        status: "open"
+        status: "open",
+        venue: "VENUE001",
+        department: "CULTURE"
     },
     {
         id: 6,
@@ -82,6 +94,8 @@ export const COMPETITONS = [
         coverImage: "/assets/images/event0.jpg",
         description: "Interzonal Western Dance competiton",
         status: "open",
+        venue: "VENUE001",
+        department: "CULTURE"
     },
     {
         id: 7,
@@ -93,7 +107,9 @@ export const COMPETITONS = [
         name: "Singing COMPetition",
         coverImage: "/assets/images/event0.jpg",
         description:"Interzonal Singing competiton",
-        status: "open"
+        status: "open",
+        venue: "VENUE001",
+        department: "CULTURE"
     },    
     {
         id: 8,
@@ -105,7 +121,9 @@ export const COMPETITONS = [
         name: "Mime Act",
         coverImage: "/assets/images/event0.jpg",
         description:"Interzonal Theatre competiton",
-        status: "open"
+        status: "open",
+        venue: "VENUE001",
+        department: "CULTURE"
     },
     {
         id: 9,
@@ -117,7 +135,9 @@ export const COMPETITONS = [
         name: "Art competition",
         coverImage: "/assets/images/event0.jpg",
         description: "Interzonal Art competition",
-        status: "open"
+        status: "open",
+        venue: "VENUE001",
+        department: "CULTURE"
     },
     {
         id: 10,
@@ -129,7 +149,9 @@ export const COMPETITONS = [
         name: "Prize Distribution",
         coverImage: "/assets/images/event0.jpg",
         description: "Distributing Prizes to the Interzonal winners",
-        status: "open"
+        status: "open",
+        venue: "VENUE001",
+        department: "CULTURE"
     },
     {
         id: 11,
@@ -141,7 +163,9 @@ export const COMPETITONS = [
         name: "100m Dash",
         coverImage: "/assets/images/event0.jpg",
         description: "100m Dash",
-        status: "open"
+        status: "open",
+        venue: "VENUE000",
+        department: "SPORTS"
     },
     {
         id: 12,
@@ -153,7 +177,9 @@ export const COMPETITONS = [
         name: "400m Relay Race",
         coverImage: "/assets/images/event0.jpg",
         description: "400m Relay Race",
-        status: "open"
+        status: "open",
+        venue: "VENUE000",
+        department: "SPORTS"
     },
     {
         id: 13,
@@ -165,7 +191,9 @@ export const COMPETITONS = [
         name: "Quater Finals",
         coverImage: "/assets/images/event0.jpg",
         description: "Quater Finals of football competion",
-        status: "closed"
+        status: "closed",
+        venue: "VENUE000",
+        department: "SPORTS"
     },
     {
         id: 14,
@@ -177,7 +205,9 @@ export const COMPETITONS = [
         name: "Semi Finals",
         coverImage: "/assets/images/event0.jpg",
         description: "Semi Finals of football competion",
-        status: "closed"
+        status: "closed",
+        venue: "VENUE000",
+        department: "SPORTS"
     },
     {
         id: 15,
@@ -189,7 +219,9 @@ export const COMPETITONS = [
         name: "Finals",
         coverImage: "/assets/images/event0.jpg",
         description: "Finals of football COMPetion",
-        status: "closed"
+        status: "closed",
+        venue: "VENUE000",
+        department: "SPORTS"
     },
     {
         id: 16,
@@ -201,7 +233,9 @@ export const COMPETITONS = [
         name: "Quater Finals",
         coverImage: "/assets/images/event0.jpg",
         description: "Quater Finals of Basketball competion",
-        status: "closed"
+        status: "closed",
+        venue: "VENUE000",
+        department: "SPORTS"
     },
     {
         id: 17,
@@ -213,7 +247,9 @@ export const COMPETITONS = [
         name: "Semi Finals",
         coverImage: "/assets/images/event0.jpg",
         description: "Semi Finals of Basketball competion",
-        status: "closed"
+        status: "closed",
+        venue: "VENUE000",
+        department: "SPORTS"
     },
     {
         id: 18,
@@ -225,6 +261,8 @@ export const COMPETITONS = [
         name: "Finals",
         coverImage: "/assets/images/event0.jpg",
         description: "Finals of Basketball COMPetion",
-        status: "closed"
+        status: "closed",
+        venue: "VENUE000",
+        department: "SPORTS"
     }
 ];

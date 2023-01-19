@@ -13,5 +13,10 @@ export const VENUES = [
         id: 2,
         venueId: 'VENUE002',
         location: 'C-Hall'
+    },
+    {
+        id: 3,
+        venueId: 'VENUE003',
+        location: 'Seminar Hall'
     }
 ];

@@ -23,5 +23,10 @@ export const DEPARTMENTS = [
         id:5,
         departId: 'SPORTS',
         hod: 'TEACH004'
+    },
+    {
+        id:6,
+        departId: 'TPO',
+        hod: 'TEACH005'
     }
 ];
