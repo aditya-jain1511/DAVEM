@@ -1,0 +1,98 @@
+[
+    {
+        "id": 0,
+        "eventId": 0,
+        "compId": 0
+    },
+    {
+        "id": 1,
+        "eventId": 0,
+        "compId": 1
+    },
+    {
+        "id": 2,
+        "eventId": 0,
+        "compId": 2
+    },
+    {
+        "id": 3,
+        "eventId": 0,
+        "compId": 3
+    },
+    {
+        "id": 4,
+        "eventId": 0,
+        "compId": 4
+    },
+    {
+        "id": 5,
+        "eventId": 1,
+        "compId": 5
+    },
+    {
+        "id": 6,
+        "eventId": 1,
+        "compId": 6
+    },
+    {
+        "id": 7,
+        "eventId": 1,
+        "compId": 7
+    },
+    {
+        "id": 8,
+        "eventId": 1,
+        "compId": 8
+    },
+    {
+        "id": 9,
+        "eventId": 1,
+        "compId": 9
+    },
+    {
+        "id": 10,
+        "eventId": 1,
+        "compId": 10
+    },
+    {
+        "id": 11,
+        "eventId": 4,
+        "compId": 11
+    },
+    {
+        "id": 12,
+        "eventId": 4,
+        "compId": 12
+    },
+    {
+        "id": 13,
+        "eventId": 5,
+        "compId": 13
+    },
+    {
+        "id": 14,
+        "eventId": 5,
+        "compId": 14
+    },
+    {
+        "id": 15,
+        "eventId": 5,
+        "compId": 15
+    },
+    {
+        "id": 16,
+        "eventId": 6,
+        "compId": 16
+    },
+    {
+        "id": 17,
+        "eventId": 6,
+        "compId": 17
+    },
+
+    {
+        "id": 18,
+        "eventId": 6,
+        "compId": 18
+    }
+]
