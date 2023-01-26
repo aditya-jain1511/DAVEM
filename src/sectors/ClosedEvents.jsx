@@ -2,20 +2,43 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Card, CardBody, CardSubtitle, CardText, CardTitle } from 'reactstrap';
 import "../css/events.css"
+import { baseurl } from '../shared/baseurl';
 
-const ClosedEvents = ({closedEvents}) => {
+const ClosedEvents = () => {
     const [events, setEvents] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
     const eventsPerPage = 3;
 
-    useEffect(() => {
-        async function fetchData() {
-            const events = await closedEvents();
-            setEvents(events);
-            console.log(events)
+    const closedEvents = () => {
+      fetch (baseurl + "EVENTS")
+      .then(res => res.json())
+      .then(data => {
+        console.log(data)
+        let events = []
+
+        const today = new Date()
+        const tTime = today.getTime()
+
+        for (let event of data){
+            let eDate = new Date(event.endDate)
+            if (eDate.getTime() < tTime){
+                events.push(event)
+            }
         }
-        fetchData();
-    }, [closedEvents]);
+        console.log(events)
+
+        events.sort((a,b) => {
+          let aStart = new Date(a.startDate).getTime()
+          let bStart = new Date(b.startDate).getTime()
+          return bStart-aStart
+      })
+        setEvents(events)
+      })
+    }
+
+    useEffect(() => {
+      closedEvents()
+    }, [])
 
     let filteredEvents = events;
 
@@ -62,7 +85,7 @@ const ClosedEvents = ({closedEvents}) => {
         );
     });
 
-    return (
+    return (events &&
         <div className="container">
             <div className="row">
                 <h3>Closed Events:</h3>

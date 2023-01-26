@@ -1,18 +1,23 @@
 import React from 'react'
 import { useState } from 'react';
+import { useEffect } from 'react';
 import { useContext } from 'react';
 import { Button, Form, FormGroup, Input, Label } from 'reactstrap';
 import { LoginContext } from '../context/LoginContext';
 import { UserContext } from '../context/UserContext';
+import { baseurl } from '../shared/baseurl';
 
-export default function Login({ validate }) {
+export default function Login() {
     const {login, setLogin} = useContext(LoginContext);
     const {user, setUser} = useContext(UserContext);
     const [userId, setUserId] = useState("")
     const [password, setPassword] = useState("")
 
+    const [users, setUsers]= useState(null) 
+
     const  handleSubmit =(e) => {
         e.preventDefault()
+
         let loggedInUser = validate(userId, password)
         if(loggedInUser){
             setLogin(true);
@@ -20,7 +25,30 @@ export default function Login({ validate }) {
         }
     }
 
-    return (
+    const validate = (userId, password) => {
+        for(let user of users){
+        if (user.userId === userId && user.password === password){
+            return user
+        }
+    }
+    return false
+    }
+
+
+
+    const fetchUsers = () => {
+        fetch(baseurl + "USERS")
+        .then(res => res.json())
+        .then(data => {
+            setUsers(data)
+        })
+    }
+
+    useEffect(() => {
+        fetchUsers()
+    }, [])
+
+    return ( users && 
         <>
             <div className='jumbotron'>
             

@@ -30,7 +30,7 @@ export const EVENTS = [
     {
         id: 2,
         eventId: 'EVENT002',
-        incharge: 'TEACH000',
+        incharge: 'TEACH005',
         eventType: 'Seminar',
         startDate: " Fri Sept 15 2023 12:00:00 GMT +0530(India Standard Time)",
         endDate: "Fri Sept 15 2023 15:00:00 GMT +0530 (India Standard Time)",

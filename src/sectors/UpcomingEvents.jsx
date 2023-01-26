@@ -2,20 +2,45 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Card, CardBody, CardSubtitle, CardText, CardTitle } from 'reactstrap';
 import "../css/events.css"
+import { baseurl } from '../shared/baseurl';
 
-const UpComingEvents = ({upcomingEvents}) => {
+const UpComingEvents = () => {
     const [events, setEvents] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
     const eventsPerPage = 3;
 
-    useEffect(() => {
-        async function fetchData() {
-            const events = await upcomingEvents();
-            setEvents(events);
-            console.log(events)
+    const upcomingEvents = () => {
+      fetch (baseurl + "EVENTS")
+      .then(res => res.json())
+      .then(data => {
+
+        let events = []
+
+        const today = new Date()
+        const tTime = today.getTime()
+
+        for (let event of data){
+            let sDate = new Date(event.startDate)
+            if (sDate.getTime() > tTime){
+                events.push(event)
+            }
         }
-        fetchData();
-    }, [upcomingEvents]);
+        console.log(events)
+
+
+        events.sort((a,b) => {
+          let aStart = new Date(a.startDate).getTime()
+          let bStart = new Date(b.startDate).getTime()
+          return aStart-bStart
+        })
+        setEvents(events)
+      })
+    }
+
+    useEffect(() => {
+      upcomingEvents()
+    }, [])
+    
 
     let filteredEvents = events;
 
@@ -62,7 +87,7 @@ const UpComingEvents = ({upcomingEvents}) => {
         );
     });
 
-    return (
+    return (events &&
         <div className="container">
             <div className="row">
                 <h3>Upcoming Events:</h3>
