@@ -1,0 +1,127 @@
+
+1.	Creation of event
+
+Collect FormData using forms on the UI 
+Save the FormData in react state 
+Save the VenueData in react state 
+fetch incharge from USERS table
+    inchargeList =  List of users where usertype===teachers
+fetch venues from VENUES table
+onFormSubmit:
+    fetch EVENTS table 
+        POST FormData
+    then fetch EVENTS.length
+        incharge = [inchargeList.find(il => il.name == formData.incharge)]
+        e_i = {
+            eventId: length-1,
+            userId: incharge[0].id
+        }
+        fetch"EVENT_INCHARGE"
+            method:'POST' 
+            body: JSON.stringify(e_i)
+
+        venue = [venueList.find(vl => vl.location == venueData.venue)]
+        e_v = {
+            eventId: length-1,
+            venueId: venue[0].id
+        }
+        fetch "EVENT_VENUE"
+            method:'POST',
+            body: JSON.stringify(e_v)
+
+
+2.	Creation of competition
+
+Collect FormData using forms on the UI 
+Save the FormData in react state 
+Save the VenueData in react state 
+fetch incharge from USERS table
+    inchargeList =  List of users where usertype===teachers
+fetch venues from VENUES table
+fetch currentEvent from EVENTS table
+onFormSubmit:
+    fetch COMPETITION table 
+        POST FormData
+    then fetch COMPETITION.length
+        incharge = [inchargeList.find(il => il.name == formData.incharge)]
+        c_i = {
+            eventId: length-1,
+            userId: incharge[0].id
+        }
+        fetch"COMP_INCHARGE"
+            method:'POST' 
+            body: JSON.stringify(e_i)
+
+        venue = [venueList.find(vl => vl.location == venueData.venue)]
+        c_v = {
+            eventId: length-1,
+            venueId: venue[0].id
+        }
+        fetch "COMP_VENUE"
+            method:'POST',
+            body: JSON.stringify(e_v)
+
+        event_comp = {
+            eventId: currentEvent.id,
+            compId: length-1
+        }
+        fetch "EVENT_COMP"
+            method:"POST"
+            body:(JSON.stringify(event_comp))
+
+
+3.	Adding volunteers
+
+Collect FormData with userId using forms on the UI 
+Save the FormData in react state 
+fetch currentEvent from EVENTS table
+fetch users from USERS table
+    student =  List of users where usertype===student
+onFormSubmit:
+    select USER from USERS table with formData.userId
+    event_vol={
+        eventId: currentEvent.id,
+        userId: USER.id
+    }
+    fetch "EVENT_VOLUNTEER"
+        method:"POST"
+        body:(JSON.stringify(event_vol))
+
+4.	Adding participations
+
+fetch currentEvent from EVENTS table
+fetch users from USERS table
+    student =  List of users where usertype===student
+while addTeamMember = true
+    Collect teamData with userId using forms on the UI 
+    Save the teamData in react state 
+    onFormSubmit:
+        set team
+        select USER from USERS table where userId teamData.userId
+        team_user={
+            teamId = teamId
+            userId = USER.id
+        }
+        fetch "TEAMS_USERS"
+            method:"POST"
+            body:(JSON.stringify(team_user))
+        comp_team = {
+            compId: currentEvent.id
+            teamId: team.teamId
+        }
+        fetch "COMP_TEAMS"
+            method:"POST"
+            body:(JSON.stringify(comp_team))
+
+
+
+5.	Creating users
+
+Collect FormData using forms on the UI 
+Save the FormData in react state 
+
+onFormSubmit:
+    fetch USERS table 
+        POST FormData
+
+

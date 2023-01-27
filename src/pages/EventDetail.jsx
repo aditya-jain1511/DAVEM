@@ -4,7 +4,7 @@ import { Badge, Col, Nav, NavItem, Row, TabContent, TabPane } from 'reactstrap';
 import "../css/eventdetail.css"
 import classnames from 'classnames';
 import { baseurl } from "../shared/baseurl"
-import { func } from 'prop-types';
+import Volunteer from "../sectors/Volunteer"
 
 const EventDetails = ({ fetchEvent, incharge }) => {
     let { id } = useParams();
@@ -13,8 +13,12 @@ const EventDetails = ({ fetchEvent, incharge }) => {
 
     const EventDetail = () => {
         const [event, setEvent] = useState(null)
+
         const [teacherIncharge, setIncharge] = useState()
         const [teacher, setTeacher] = useState()
+
+        const [venueDetail, setVenueDetail] = useState()
+        const [venue, setVenue] = useState()
 
         const fetchTeacher = (id) => {
             fetch(baseurl + "EVENT_INCHARGE")
@@ -33,6 +37,27 @@ const EventDetails = ({ fetchEvent, incharge }) => {
                 .then(data => setIncharge(data))
         }
 
+        const fetchVenue = (id) => {
+            fetch(baseurl + "EVENT_VENUE")
+                .then(res => res.json())
+                .then(user => user.find(e => e.eventId === Number(id)))
+                .then(data => {
+                    console.log(data)
+                    setVenue(data)
+                    fetchVenueDetail(data.venueId)
+                })
+        }
+
+        const fetchVenueDetail = async(id) => {
+            await fetch(baseurl + "VENUES")
+                .then(res => res.json())
+                .then(user => user.find(e => e.id === Number(id)))
+                .then(data => {
+                    console.log(data)
+                    setVenueDetail(data)
+                })
+        }
+
         const fetchEvent = (id) =>{
             fetch(baseurl + "EVENTS")
             .then(res => res.json())
@@ -40,6 +65,7 @@ const EventDetails = ({ fetchEvent, incharge }) => {
             .then(data => {
                 setEvent(data)
                 fetchTeacher(data.id)
+                fetchVenue(data.id)
             })
         }
 
@@ -47,7 +73,7 @@ const EventDetails = ({ fetchEvent, incharge }) => {
             fetchEvent(id)
         }, [])
         
-        return (event && teacher && teacherIncharge && <>
+        return (event && teacher && teacherIncharge && venue && venueDetail&& <>
             <div className='row align-items-center'>
                 <div className="col-12">
                     <img src={event.coverImage} alt={event.name} className="event-image" />
@@ -75,6 +101,16 @@ const EventDetails = ({ fetchEvent, incharge }) => {
                             Volunteer
                         </NavLink>
                     </NavItem>
+                    <NavItem>
+                        <NavLink className="nav-link text-center" onClick={() => { setCurrentActiveTab('3'); }} >
+                            Competition
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink className="nav-link text-center" onClick={() => { setCurrentActiveTab('4'); }} >
+                            Venue
+                        </NavLink>
+                    </NavItem>
                 </Nav>
 
                 <TabContent activeTab={currentActiveTab}>
@@ -90,11 +126,23 @@ const EventDetails = ({ fetchEvent, incharge }) => {
                         </div>
                     </TabPane>
                     <TabPane tabId="2">
+                        <Volunteer />
+                    </TabPane>
+                    <TabPane tabId="3">
                         <Row>
                             <Col sm="12">
-                                <h5>Sample Tab 2 Content</h5>
+                                <h5>Sample Tab 3 Content</h5>
                             </Col>
                         </Row>
+                    </TabPane>
+                    <TabPane tabId="4">
+                        <div className="row align-items-center">
+                            <div className="col-12 col-lg-4">
+                                <h4>Venue</h4>
+                                <div>VenueID: {venueDetail.venueId}</div>
+                                <div>Location: {venueDetail.location}</div>
+                            </div>
+                        </div>
                     </TabPane>
                 </TabContent>
             </div>

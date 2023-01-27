@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useContext } from 'react';
 import { Container, Row, Col, Form, FormGroup, Label, Input, Button } from 'reactstrap';
 import { UserContext } from '../context/UserContext';
+import { baseurl } from '../shared/baseurl';
 
 const Contact = () => {
     const {user, setUser} = useContext(UserContext);
@@ -22,7 +23,14 @@ const Contact = () => {
   
     const handleSubmit = (event) => {
       event.preventDefault();
-      console.log(formData);
+      fetch(baseurl + "FEEDBACK",{
+        method:'POST',
+        body: JSON.stringify(formData),
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        credentials: 'same-origin',
+      })
       // handle form submission here
     }
 

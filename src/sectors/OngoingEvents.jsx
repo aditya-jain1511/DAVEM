@@ -21,7 +21,8 @@ const OngoingEvents = () => {
 
         for (let event of data){
             let sDate = new Date(event.startDate)
-            if (sDate.getTime() > tTime){
+            let eDate = new Date(event.endDate)
+            if (sDate.getTime() <= tTime && eDate.getTime() >= tTime){
                 events.push(event)
             }
         }

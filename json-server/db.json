@@ -1,897 +1,1252 @@
 {
-    "EVENTS" : [
-        {
-          "id": 0,
-          "eventId": "EVENT000",
-          "incharge": "TEACH000",
-          "eventType": "Freshers",
-          "startDate": " Wed Aug 2 2023 11:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Wed Aug 2 2023 17:00:00 GMT +0530 (India Standard Time)",
-          "name": "Freshers Chrisma 2023",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Freshers 2023 EVENT. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque",
-          "venue": "VENUE001",
-          "department": "CULTURE"
-        },
-        {
-          "id": 1,
-          "eventId": "EVENT001",
-          "incharge": "TEACH002",
-          "eventType": "Youth Fest 2023",
-          "startDate": " Wed Feb 22 2023 10:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Fri Feb 24 2023 17:00:00 GMT +0530 (India Standard Time)",
-          "name": "Youth Fest 2023",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Interzonal Youth Fest 2023 is being conducted in our college DAVIET this year and we will be graced with presence of director of IKGPTU. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque!",
-          "venue": "VENUE001",
-          "department": "CULTURE"
-        },
-        {
-          "id": 2,
-          "eventId": "EVENT002",
-          "incharge": "TEACH005",
-          "eventType": "Seminar",
-          "startDate": " Fri Sept 15 2023 12:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Fri Sept 15 2023 15:00:00 GMT +0530 (India Standard Time)",
-          "name": "Placement talk Seminar",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Placement talk Seminar. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque",
-          "venue": "VENUE003",
-          "department": "TPO"
-        },
-        {
-          "id": 3,
-          "eventId": "EVENT003",
-          "incharge": "TEACH002",
-          "eventType": "Pooja",
-          "startDate": " Wed Aug 10 2023 11:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Wed Aug 24 2023 13:00:00 GMT +0530 (India Standard Time)",
-          "name": "Pooja",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Pooja. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque",
-          "venue": "VENUE002",
-          "department": "CULTURE"
-        },
-        {
-          "id": 4,
-          "eventId": "EVENT004",
-          "incharge": "TEACH004",
-          "eventType": "Sports",
-          "startDate": " Fri Oct 13 2023 11:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Fri Oct 13 2023 13:00:00 GMT +0530 (India Standard Time)",
-          "name": "Sports Day",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "College Sports day EVENT. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque",
-          "venue": "VENUE000",
-          "department": "SPORTS"
-        },
-        {
-          "id": 5,
-          "eventId": "EVENT005",
-          "incharge": "TEACH003",
-          "eventType": "Sports",
-          "startDate": " Fri Oct 13 2022 11:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Mon Oct 16 2022 13:00:00 GMT +0530 (India Standard Time)",
-          "name": "Football Tournament",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Interbatch Football Tournament. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque",
-          "venue": "VENUE000",
-          "department": "SPORTS"
-        },
-        {
-          "id": 6,
-          "eventId": "EVENT006",
-          "incharge": "TEACH003",
-          "eventType": "Sports",
-          "startDate": " Mon Oct 16 2022 11:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Wed Oct 18 2022 13:00:00 GMT +0530 (India Standard Time)",
-          "name": "Basketball Tournament",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Interbatch Basketball Tournament. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque",
-          "venue": "VENUE000",
-          "department": "SPORTS"
-        },
-        {
-          "id": 7,
-          "eventId": "EVENT007",
-          "incharge": "TEACH000",
-          "eventType": "Seminar",
-          "startDate": " Thu Jan 19 2023 11:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Sat Jan 28 2023 13:00:00 GMT +0530 (India Standard Time)",
-          "name": "Database requirement and future prospects for IT",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Database requirement and future prospects. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque",
-          "venue": "VENUE002",
-          "department": "IT"
-        }
-      ],
-    "COMPETITIONS" : [
-        {
-          "id": 0,
-          "compId": "COMP0000",
-          "incharge": "TEACH000",
-          "compType": "Introduction Ramp Walk Round",
-          "startDate": " Wed Aug 2th 2023 11:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Wed Aug 2th 2023 13:00:00 GMT +0530 (India Standard Time)",
-          "name": "Introduction and Ramp Walk Round",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Ramp walk round of freshers",
-          "status": "open",
-          "venue": "VENUE001",
-          "department": "CULTURE"
-        },
-        {
-          "id": 1,
-          "compId": "COMP0001",
-          "incharge": "TEACH000",
-          "compType": "Introduction Ramp Walk Round",
-          "startDate": " Wed Aug 2 2023 11:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Wed Aug 2 2023 13:00:00 GMT +0530 (India Standard Time)",
-          "name": "Introduction Ramp Walk Round",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Ramp walk round of freshers",
-          "status": "open",
-          "venue": "VENUE001",
-          "department": "CULTURE"
-        },
-        {
-          "id": 2,
-          "compId": "COMP0002",
-          "incharge": "TEACH000",
-          "compType": "Question Round",
-          "startDate": " Wed Aug 2 2023 13:15:00 GMT +0530(India Standard Time)",
-          "endDate": "Wed Aug 2 2023 14:30:00 GMT +0530 (India Standard Time)",
-          "name": "Question Round",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Talent Question/Answers Round",
-          "status": "open",
-          "venue": "VENUE001",
-          "department": "CULTURE"
-        },
-        {
-          "id": 3,
-          "compId": "COMP0003",
-          "incharge": "TEACH000",
-          "compType": "Talent Round",
-          "startDate": " Wed Aug 2 2023 14:45:00 GMT +0530(India Standard Time)",
-          "endDate": "Wed Aug 2 2023 15:45:00 GMT +0530 (India Standard Time)",
-          "name": "Talent Round",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Talent Question/Answers Round",
-          "status": "open",
-          "venue": "VENUE001",
-          "department": "CULTURE"
-        },
-        {
-          "id": 4,
-          "compId": "COMP0004",
-          "incharge": "TEACH000",
-          "compType": "Prize Distribution",
-          "startDate": " Wed Aug 2 2023 16:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Wed Aug 2 2023 16:45:00 GMT +0530 (India Standard Time)",
-          "name": "Prize Distribution",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Distributing Prizes to the winners",
-          "status": "open",
-          "venue": "VENUE001",
-          "department": "CULTURE"
-        },
-        {
-          "id": 5,
-          "compId": "COMP0005",
-          "incharge": "TEACH002",
-          "compType": "Bhangra competition",
-          "startDate": " Wed Feb 22 2023 10:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Wed Feb 22 2023 12:30:00 GMT +0530 (India Standard Time)",
-          "name": "Bhangra competition",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Interzonal Bhangra competiton",
-          "status": "open",
-          "venue": "VENUE001",
-          "department": "CULTURE"
-        },
-        {
-          "id": 6,
-          "compId": "COMP0006",
-          "incharge": "TEACH002",
-          "compType": "Western Dance competition",
-          "startDate": " Wed Feb 22 2023 13:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Wed Feb 22 2023 15:30:00 GMT +0530 (India Standard Time)",
-          "name": "Western Dance competition",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Interzonal Western Dance competiton",
-          "status": "open",
-          "venue": "VENUE001",
-          "department": "CULTURE"
-        },
-        {
-          "id": 7,
-          "compId": "COMP0007",
-          "incharge": "TEACH002",
-          "compType": "Singing competition",
-          "startDate": "Thu Feb 23 2023 10:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Thu Feb 23 2023 12:30:00 GMT +0530 (India Standard Time)",
-          "name": "Singing COMPetition",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Interzonal Singing competiton",
-          "status": "open",
-          "venue": "VENUE001",
-          "department": "CULTURE"
-        },
-        {
-          "id": 8,
-          "compId": "COMP0008",
-          "incharge": "TEACH002",
-          "compType": "Theatre competition",
-          "startDate": " Thu Feb 23 2023 12:45:00 GMT +0530(India Standard Time)",
-          "endDate": "Thu Feb 23 2023 17:00:00 GMT +0530 (India Standard Time)",
-          "name": "Mime Act",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Interzonal Theatre competiton",
-          "status": "open",
-          "venue": "VENUE001",
-          "department": "CULTURE"
-        },
-        {
-          "id": 9,
-          "compId": "COMP0009",
-          "incharge": "TEACH002",
-          "compType": "Art competition",
-          "startDate": " Thu Feb 24 2023 10:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Thu Feb 24 2023 14:00:00 GMT +0530 (India Standard Time)",
-          "name": "Art competition",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Interzonal Art competition",
-          "status": "open",
-          "venue": "VENUE001",
-          "department": "CULTURE"
-        },
-        {
-          "id": 10,
-          "compId": "COMP0010",
-          "incharge": "TEACH002",
-          "compType": "Prize Distribution",
-          "startDate": " Fri Feb 2 2023 12:15:00 GMT +0530(India Standard Time)",
-          "endDate": "Fri Feb 2 2023 17:00:00 GMT +0530 (India Standard Time)",
-          "name": "Prize Distribution",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Distributing Prizes to the Interzonal winners",
-          "status": "open",
-          "venue": "VENUE001",
-          "department": "CULTURE"
-        },
-        {
-          "id": 11,
-          "compId": "COMP0011",
-          "incharge": "TEACH004",
-          "compType": "100m Dash",
-          "startDate": " Fri Oct 13 2023 11:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Fri Oct 13 2023 12:00:00 GMT +0530 (India Standard Time)",
-          "name": "100m Dash",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "100m Dash",
-          "status": "open",
-          "venue": "VENUE000",
-          "department": "SPORTS"
-        },
-        {
-          "id": 12,
-          "compId": "COMP0012",
-          "incharge": "TEACH004",
-          "compType": "400m Relay Race",
-          "startDate": " Fri Oct 13 2023 12:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Fri Oct 13 2023 13:00:00 GMT +0530 (India Standard Time)",
-          "name": "400m Relay Race",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "400m Relay Race",
-          "status": "open",
-          "venue": "VENUE000",
-          "department": "SPORTS"
-        },
-        {
-          "id": 13,
-          "compId": "COMP0013",
-          "incharge": "TEACH003",
-          "compType": "Sports",
-          "startDate": " Fri Oct 13 2022 11:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Fri Oct 13 2022 17:00:00 GMT +0530 (India Standard Time)",
-          "name": "Quater Finals",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Quater Finals of football competion",
-          "status": "closed",
-          "venue": "VENUE000",
-          "department": "SPORTS"
-        },
-        {
-          "id": 14,
-          "compId": "COMP0014",
-          "incharge": "TEACH003",
-          "compType": "Sports",
-          "startDate": " Sat Oct 14 2022 11:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Sat Oct 14 2022 17:00:00 GMT +0530 (India Standard Time)",
-          "name": "Semi Finals",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Semi Finals of football competion",
-          "status": "closed",
-          "venue": "VENUE000",
-          "department": "SPORTS"
-        },
-        {
-          "id": 15,
-          "compId": "COMP0015",
-          "incharge": "TEACH003",
-          "compType": "Sports",
-          "startDate": " Mon Oct 16 2022 13:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Mon Oct 16 2022 17:00:00 GMT +0530 (India Standard Time)",
-          "name": "Finals",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Finals of football COMPetion",
-          "status": "closed",
-          "venue": "VENUE000",
-          "department": "SPORTS"
-        },
-        {
-          "id": 16,
-          "compId": "COMP0016",
-          "incharge": "TEACH003",
-          "compType": "Sports",
-          "startDate": " Mon Oct 16 2022 11:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Mon Oct 16 2022 17:00:00 GMT +0530 (India Standard Time)",
-          "name": "Quater Finals",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Quater Finals of Basketball competion",
-          "status": "closed",
-          "venue": "VENUE000",
-          "department": "SPORTS"
-        },
-        {
-          "id": 17,
-          "compId": "COMP0017",
-          "incharge": "TEACH003",
-          "compType": "Sports",
-          "startDate": " Tue Oct 17 2022 11:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Tue Oct 17 2022 17:00:00 GMT +0530 (India Standard Time)",
-          "name": "Semi Finals",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Semi Finals of Basketball competion",
-          "status": "closed",
-          "venue": "VENUE000",
-          "department": "SPORTS"
-        },
-        {
-          "id": 18,
-          "compId": "COMP0018",
-          "incharge": "TEACH003",
-          "compType": "Sports",
-          "startDate": " Wed Oct 18 2022 13:00:00 GMT +0530(India Standard Time)",
-          "endDate": "Wed Oct 18 2022 17:00:00 GMT +0530 (India Standard Time)",
-          "name": "Finals",
-          "coverImage": "/assets/images/event0.jpg",
-          "description": "Finals of Basketball COMPetion",
-          "status": "closed",
-          "venue": "VENUE000",
-          "department": "SPORTS"
-        }
-      ],
-    "USERS" : [
-        {
-          "id": 0,
-          "userId": "ADMIN000",
-          "name": "Admin Admin",
-          "userType": "admin",
-          "phone": "0000000000",
-          "email": "admin000@xyz.edu",
-          "username": "admin000",
-          "password": "0000",
-          "gender": "male",
-          "rollno": "NA",
-          "department": "NA"
-        },
-        {
-          "id": 1,
-          "userId": "ADMIN001",
-          "name": "Admin Admin",
-          "userType": "admin",
-          "phone": "0000000000",
-          "email": "admin001@xyz.edu",
-          "username": "admin001",
-          "password": "0000",
-          "gender": "male",
-          "rollno": "NA",
-          "department": "NA"
-        },
-        {
-          "id": 2,
-          "userId": "ADMIN002",
-          "name": "Admin Admin",
-          "userType": "admin",
-          "phone": "0000000000",
-          "email": "admin001@xyz.edu",
-          "username": "admin001",
-          "password": "0000",
-          "gender": "male",
-          "rollno": "NA",
-          "department": "NA"
-        },
-        {
-          "id": 3,
-          "userId": "ADMIN003",
-          "name": "Admin Admin",
-          "userType": "admin",
-          "phone": "0000000000",
-          "email": "admin003@xyz.edu",
-          "username": "admin003",
-          "password": "0003",
-          "gender": "male",
-          "rollno": "NA",
-          "department": "NA"
-        },
-        {
-          "id": 4,
-          "userId": "ADMIN004",
-          "name": "Admin Admin",
-          "userType": "admin",
-          "phone": "0000000000",
-          "email": "admin004@xyz.edu",
-          "username": "admin004",
-          "password": "0000",
-          "gender": "male",
-          "rollno": "NA",
-          "department": "NA"
-        },
-        {
-          "id": 5,
-          "userId": "TEACH000",
-          "name": "Reeta Bharadwaj",
-          "userType": "teacher",
-          "phone": "9876543210",
-          "email": "teacher000@xyz.edu",
-          "username": "reeta_bharadwaj000",
-          "password": "0000",
-          "gender": "female",
-          "rollno": "NA",
-          "department": "IT"
-        },
-        {
-          "id": 6,
-          "userId": "TEACH001",
-          "name": "Gagan Bharadwaj",
-          "userType": "teacher",
-          "phone": "9876543210",
-          "email": "teacher001@xyz.edu",
-          "username": "gagan_bharadwaj000",
-          "password": "0000",
-          "gender": "male",
-          "rollno": "NA",
-          "department": "IT"
-        },
-        {
-          "id": 7,
-          "userId": "TEACH002",
-          "name": "Raman Sharma",
-          "userType": "teacher",
-          "phone": "9876543210",
-          "email": "teach_two@xyz.edu",
-          "username": "teach_two",
-          "password": "0000",
-          "gender": "female",
-          "rollno": "NA",
-          "department": "CSE"
-        },
-        {
-          "id": 8,
-          "userId": "TEACH003",
-          "name": "Teach Three",
-          "userType": "teacher",
-          "phone": "9876543210",
-          "email": "teach_three@xyz.edu",
-          "username": "teach_three",
-          "password": "0000",
-          "gender": "male",
-          "rollno": "NA",
-          "department": "CSE"
-        },
-        {
-          "id": 9,
-          "userId": "TEACH004",
-          "name": "Teach Four",
-          "userType": "teacher",
-          "phone": "9876543210",
-          "email": "teacher004@xyz.edu",
-          "username": "teach_4",
-          "password": "0000",
-          "gender": "male",
-          "rollno": "NA",
-          "department": "ECE"
-        },
-        {
-          "id": 10,
-          "userId": "STU40319",
-          "name": "Aditya Jain",
-          "userType": "student",
-          "phone": "9876543210",
-          "email": "abc@xyz.edu",
-          "username": "aditya_jain1511",
-          "password": "0000",
-          "gender": "male",
-          "rollno": "1903814",
-          "department": "IT"
-        },
-        {
-          "id": 11,
-          "userId": "STU42019",
-          "name": "HarnoorDeep Singh",
-          "userType": "student",
-          "phone": "9876543210",
-          "email": "def@xyz.edu",
-          "username": "harnoor_singh0104",
-          "password": "0000",
-          "gender": "male",
-          "rollno": "1903832",
-          "department": "IT"
-        },
-        {
-          "id": 12,
-          "userId": "STU42119",
-          "name": "Harman Preet",
-          "userType": "student",
-          "phone": "9876543210",
-          "email": "def@xyz.edu",
-          "username": "harman0104",
-          "password": "0000",
-          "gender": "female",
-          "rollno": "1903833",
-          "department": "IT"
-        },
-        {
-          "id": 13,
-          "userId": "STU40719",
-          "name": "Deepesh Singh",
-          "userType": "student",
-          "phone": "9876543210",
-          "email": "def@xyz.edu",
-          "username": "deep_singh0104",
-          "password": "0000",
-          "gender": "male",
-          "rollno": "1903818",
-          "department": "IT"
-        },
-        {
-          "id": 14,
-          "userId": "STU40119",
-          "name": "Aastha Narula",
-          "userType": "student",
-          "phone": "9876543210",
-          "email": "def@xyz.edu",
-          "username": "aasthanarula",
-          "password": "0000",
-          "gender": "female",
-          "rollno": "1903812",
-          "department": "IT"
-        },
-        {
-          "id": 15,
-          "userId": "STU40219",
-          "name": "Aadit kumar",
-          "userType": "student",
-          "phone": "9876543210",
-          "email": "def@xyz.edu",
-          "username": "aadit",
-          "password": "0000",
-          "gender": "male",
-          "rollno": "1903813",
-          "department": "IT"
-        },
-        {
-          "id": 16,
-          "userId": "STU40419",
-          "name": "Akil Mehta",
-          "userType": "student",
-          "phone": "9876543210",
-          "email": "def@xyz.edu",
-          "username": "akilmehta",
-          "password": "0000",
-          "gender": "male",
-          "rollno": "1903815",
-          "department": "IT"
-        },
-        {
-          "id": 17,
-          "userId": "STU30119",
-          "name": "Harnoor Gandhi",
-          "userType": "student",
-          "phone": "9876543210",
-          "email": "def@xyz.edu",
-          "username": "harnoor_gandhi0104",
-          "password": "0000",
-          "gender": "male",
-          "rollno": "1903701",
-          "department": "CSE"
-        },
-        {
-          "id": 18,
-          "userId": "STU30219",
-          "name": "segal chadha",
-          "userType": "student",
-          "phone": "9876543210",
-          "email": "def@xyz.edu",
-          "username": "segalc",
-          "password": "0000",
-          "gender": "male",
-          "rollno": "1903702",
-          "department": "CSE"
-        },
-        {
-          "id": 19,
-          "userId": "STU30319",
-          "name": "anshika kohli",
-          "userType": "student",
-          "phone": "9876543210",
-          "email": "def@xyz.edu",
-          "username": "anshu_k",
-          "password": "0000",
-          "gender": "female",
-          "rollno": "1903820",
-          "department": "CSE"
-        },
-        {
-          "id": 20,
-          "userId": "STU30419",
-          "name": "anamika chauhan",
-          "userType": "student",
-          "phone": "9876543210",
-          "email": "def@xyz.edu",
-          "username": "anna_ch",
-          "password": "0000",
-          "gender": "female",
-          "rollno": "1903834",
-          "department": "CSE"
-        },
-        {
-          "id": 21,
-          "userId": "STU30519",
-          "name": "Shruti Garg",
-          "userType": "student",
-          "phone": "9876543210",
-          "email": "def@xyz.edu",
-          "username": "shruti_garg1311",
-          "password": "0000",
-          "gender": "female",
-          "rollno": "1903836",
-          "department": "CSE"
-        },
-        {
-          "id": 22,
-          "userId": "TEST0619",
-          "name": "test Test",
-          "userType": "student",
-          "phone": "9876543210",
-          "email": "def@xyz.edu",
-          "username": "test001",
-          "password": "0000",
-          "gender": "male",
-          "rollno": "1903837",
-          "department": "CSE"
-        },
-        {
-          "id": 23,
-          "userId": "Test0719",
-          "name": "test test02",
-          "userType": "student",
-          "phone": "9876543210",
-          "email": "def@xyz.edu",
-          "username": "test002",
-          "password": "0000",
-          "gender": "female",
-          "rollno": "1903838",
-          "department": "ECE"
-        },
-        {
-          "id": 24,
-          "userId": "TEACH005",
-          "name": "Vishal Rao",
-          "userType": "teacher",
-          "phone": "9876543210",
-          "email": "teacher005@xyz.edu",
-          "username": "vishal_rao",
-          "password": "0000",
-          "gender": "male",
-          "rollno": "NA",
-          "department": "ECE"
-        }
-      ],
-    "DEPARTMENTS" : [
-        {
-          "id": 0,
-          "departId": "IT",
-          "hod": "TEACH000"
-        },
-        {
-          "id": 1,
-          "departId": "CSE",
-          "hod": "TEACH001"
-        },
-        {
-          "id": 2,
-          "departId": "ECE",
-          "hod": "TEACH002"
-        },
-        {
-          "id": 4,
-          "departId": "CULTURE",
-          "hod": "TEACH003"
-        },
-        {
-          "id": 5,
-          "departId": "SPORTS",
-          "hod": "TEACH004"
-        },
-        {
-          "id": 6,
-          "departId": "TPO",
-          "hod": "TEACH005"
-        }
-      ],
-    "VENUES" : [
-        {
-          "id": 0,
-          "venueId": "VENUE000",
-          "location": "Sports Ground"
-        },
-        {
-          "id": 1,
-          "venueId": "VENUE001",
-          "location": "Auditorium"
-        },
-        {
-          "id": 2,
-          "venueId": "VENUE002",
-          "location": "C-Hall"
-        },
-        {
-          "id": 3,
-          "venueId": "VENUE003",
-          "location": "Seminar Hall"
-        }
-      ],
-    "EVENT_INCHARGE" : [
-        {
-            "id": 0,
-            "eventId": 0,
-            "userId": 5
-        },
-        {
-            "id": 1,
-            "eventId": 1,
-            "userId": 7
-        },
-        {
-            "id": 2,
-            "eventId": 2,
-            "userId": 24
-        },
-        {
-            "id": 3,
-            "eventId": 3,
-            "userId": 7
-        },
-        {
-            "id": 4,
-            "eventId": 4,
-            "userId": 9
-        },
-        {
-            "id": 5,
-            "eventId": 5,
-            "userId": 8
-        },
-        {
-            "id": 6,
-            "eventId": 6,
-            "userId": 8
-        },
-        {
-            "id": 7,
-            "eventId": 7,
-            "userId": 5
-        }
-    ],
-    "EVENT_COMP" : [
-        {
-            "id": 0,
-            "eventId": 0,
-            "compId": 0
-        },
-        {
-            "id": 1,
-            "eventId": 0,
-            "compId": 1
-        },
-        {
-            "id": 2,
-            "eventId": 0,
-            "compId": 2
-        },
-        {
-            "id": 3,
-            "eventId": 0,
-            "compId": 3
-        },
-        {
-            "id": 4,
-            "eventId": 0,
-            "compId": 4
-        },
-        {
-            "id": 5,
-            "eventId": 1,
-            "compId": 5
-        },
-        {
-            "id": 6,
-            "eventId": 1,
-            "compId": 6
-        },
-        {
-            "id": 7,
-            "eventId": 1,
-            "compId": 7
-        },
-        {
-            "id": 8,
-            "eventId": 1,
-            "compId": 8
-        },
-        {
-            "id": 9,
-            "eventId": 1,
-            "compId": 9
-        },
-        {
-            "id": 10,
-            "eventId": 1,
-            "compId": 10
-        },
-        {
-            "id": 11,
-            "eventId": 4,
-            "compId": 11
-        },
-        {
-            "id": 12,
-            "eventId": 4,
-            "compId": 12
-        },
-        {
-            "id": 13,
-            "eventId": 5,
-            "compId": 13
-        },
-        {
-            "id": 14,
-            "eventId": 5,
-            "compId": 14
-        },
-        {
-            "id": 15,
-            "eventId": 5,
-            "compId": 15
-        },
-        {
-            "id": 16,
-            "eventId": 6,
-            "compId": 16
-        },
-        {
-            "id": 17,
-            "eventId": 6,
-            "compId": 17
-        },
-    
-        {
-            "id": 18,
-            "eventId": 6,
-            "compId": 18
-        }
-    ]
+  "EVENTS": [
+    {
+      "id": 0,
+      "eventId": "EVENT000",
+      "incharge": "TEACH000",
+      "eventType": "Culture",
+      "startDate": " Wed Aug 2 2023 11:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Wed Aug 2 2023 17:00:00 GMT +0530 (India Standard Time)",
+      "name": "Freshers Chrisma 2023",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Freshers 2023 EVENT. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque"
+    },
+    {
+      "id": 1,
+      "eventId": "EVENT001",
+      "incharge": "TEACH002",
+      "eventType": "Youth Fest 2023",
+      "startDate": " Wed Feb 22 2023 10:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Fri Feb 24 2023 17:00:00 GMT +0530 (India Standard Time)",
+      "name": "Youth Fest 2023",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Interzonal Youth Fest 2023 is being conducted in our college DAVIET this year and we will be graced with presence of director of IKGPTU. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque!"
+    },
+    {
+      "id": 2,
+      "eventId": "EVENT002",
+      "incharge": "TEACH005",
+      "eventType": "Seminar",
+      "startDate": " Fri Sept 15 2023 12:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Fri Sept 15 2023 15:00:00 GMT +0530 (India Standard Time)",
+      "name": "Placement talk Seminar",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Placement talk Seminar. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque"
+    },
+    {
+      "id": 3,
+      "eventId": "EVENT003",
+      "incharge": "TEACH002",
+      "eventType": "Pooja",
+      "startDate": " Wed Aug 10 2023 11:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Wed Aug 24 2023 13:00:00 GMT +0530 (India Standard Time)",
+      "name": "Pooja",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Pooja. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque"
+    },
+    {
+      "id": 4,
+      "eventId": "EVENT004",
+      "incharge": "TEACH004",
+      "eventType": "Sports",
+      "startDate": " Fri Oct 13 2023 11:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Fri Oct 13 2023 13:00:00 GMT +0530 (India Standard Time)",
+      "name": "Sports Day",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "College Sports day EVENT. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque"
+    },
+    {
+      "id": 5,
+      "eventId": "EVENT005",
+      "incharge": "TEACH003",
+      "eventType": "Sports",
+      "startDate": " Fri Oct 13 2022 11:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Mon Oct 16 2022 13:00:00 GMT +0530 (India Standard Time)",
+      "name": "Football Tournament",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Interbatch Football Tournament. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque"
+    },
+    {
+      "id": 6,
+      "eventId": "EVENT006",
+      "incharge": "TEACH003",
+      "eventType": "Sports",
+      "startDate": " Mon Oct 16 2022 11:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Wed Oct 18 2022 13:00:00 GMT +0530 (India Standard Time)",
+      "name": "Basketball Tournament",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Interbatch Basketball Tournament. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque"
+    },
+    {
+      "id": 7,
+      "eventId": "EVENT007",
+      "incharge": "TEACH000",
+      "eventType": "Seminar",
+      "startDate": " Thu Jan 19 2023 11:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Sat Jan 28 2023 13:00:00 GMT +0530 (India Standard Time)",
+      "name": "Database requirement and future prospects for IT",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Database requirement and future prospects. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur error eveniet molestias sequi id cumque sapiente eaque ad recusandae odit mollitia adipisci dolore doloribus aperiam, dolor, aut perferendis doloremque"
+    },
+    {
+      "eventId": "qqqqqqqqq",
+      "incharge": "Raman Sharma",
+      "eventType": "Sports",
+      "startDate": "2023-01-20",
+      "endDate": "2023-01-28",
+      "name": "Aditya Jain",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "test desc",
+      "id": 8
+    },
+    {
+      "eventId": "jnnjolkmlk",
+      "incharge": "Reeta Bharadwaj",
+      "eventType": "Seminar",
+      "startDate": "2023-01-18",
+      "endDate": "2023-01-28",
+      "name": "axbahjsbhj",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "qqqqqqqq",
+      "id": 9
+    }
+  ],
+  "COMPETITIONS": [
+    {
+      "id": 0,
+      "compId": "COMP0000",
+      "incharge": "TEACH000",
+      "compType": "Introduction Ramp Walk Round",
+      "startDate": " Wed Aug 2th 2023 11:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Wed Aug 2th 2023 13:00:00 GMT +0530 (India Standard Time)",
+      "name": "Introduction and Ramp Walk Round",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Ramp walk round of freshers"
+    },
+    {
+      "id": 1,
+      "compId": "COMP0001",
+      "incharge": "TEACH000",
+      "compType": "Introduction Ramp Walk Round",
+      "startDate": " Wed Aug 2 2023 11:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Wed Aug 2 2023 13:00:00 GMT +0530 (India Standard Time)",
+      "name": "Introduction Ramp Walk Round",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Ramp walk round of freshers"
+    },
+    {
+      "id": 2,
+      "compId": "COMP0002",
+      "incharge": "TEACH000",
+      "compType": "Question Round",
+      "startDate": " Wed Aug 2 2023 13:15:00 GMT +0530(India Standard Time)",
+      "endDate": "Wed Aug 2 2023 14:30:00 GMT +0530 (India Standard Time)",
+      "name": "Question Round",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Talent Question/Answers Round"
+    },
+    {
+      "id": 3,
+      "compId": "COMP0003",
+      "incharge": "TEACH000",
+      "compType": "Talent Round",
+      "startDate": " Wed Aug 2 2023 14:45:00 GMT +0530(India Standard Time)",
+      "endDate": "Wed Aug 2 2023 15:45:00 GMT +0530 (India Standard Time)",
+      "name": "Talent Round",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Talent Question/Answers Round"
+    },
+    {
+      "id": 4,
+      "compId": "COMP0004",
+      "incharge": "TEACH000",
+      "compType": "Prize Distribution",
+      "startDate": " Wed Aug 2 2023 16:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Wed Aug 2 2023 16:45:00 GMT +0530 (India Standard Time)",
+      "name": "Prize Distribution",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Distributing Prizes to the winners"
+    },
+    {
+      "id": 5,
+      "compId": "COMP0005",
+      "incharge": "TEACH002",
+      "compType": "Bhangra competition",
+      "startDate": " Wed Feb 22 2023 10:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Wed Feb 22 2023 12:30:00 GMT +0530 (India Standard Time)",
+      "name": "Bhangra competition",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Interzonal Bhangra competiton"
+    },
+    {
+      "id": 6,
+      "compId": "COMP0006",
+      "incharge": "TEACH002",
+      "compType": "Western Dance competition",
+      "startDate": " Wed Feb 22 2023 13:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Wed Feb 22 2023 15:30:00 GMT +0530 (India Standard Time)",
+      "name": "Western Dance competition",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Interzonal Western Dance competiton"
+    },
+    {
+      "id": 7,
+      "compId": "COMP0007",
+      "incharge": "TEACH002",
+      "compType": "Singing competition",
+      "startDate": "Thu Feb 23 2023 10:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Thu Feb 23 2023 12:30:00 GMT +0530 (India Standard Time)",
+      "name": "Singing COMPetition",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Interzonal Singing competiton"
+    },
+    {
+      "id": 8,
+      "compId": "COMP0008",
+      "incharge": "TEACH002",
+      "compType": "Theatre competition",
+      "startDate": " Thu Feb 23 2023 12:45:00 GMT +0530(India Standard Time)",
+      "endDate": "Thu Feb 23 2023 17:00:00 GMT +0530 (India Standard Time)",
+      "name": "Mime Act",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Interzonal Theatre competiton"
+    },
+    {
+      "id": 9,
+      "compId": "COMP0009",
+      "incharge": "TEACH002",
+      "compType": "Art competition",
+      "startDate": " Thu Feb 24 2023 10:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Thu Feb 24 2023 14:00:00 GMT +0530 (India Standard Time)",
+      "name": "Art competition",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Interzonal Art competition"
+    },
+    {
+      "id": 10,
+      "compId": "COMP0010",
+      "incharge": "TEACH002",
+      "compType": "Prize Distribution",
+      "startDate": " Fri Feb 2 2023 12:15:00 GMT +0530(India Standard Time)",
+      "endDate": "Fri Feb 2 2023 17:00:00 GMT +0530 (India Standard Time)",
+      "name": "Prize Distribution",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Distributing Prizes to the Interzonal winners"
+    },
+    {
+      "id": 11,
+      "compId": "COMP0011",
+      "incharge": "TEACH004",
+      "compType": "100m Dash",
+      "startDate": " Fri Oct 13 2023 11:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Fri Oct 13 2023 12:00:00 GMT +0530 (India Standard Time)",
+      "name": "100m Dash",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "100m Dash"
+    },
+    {
+      "id": 12,
+      "compId": "COMP0012",
+      "incharge": "TEACH004",
+      "compType": "400m Relay Race",
+      "startDate": " Fri Oct 13 2023 12:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Fri Oct 13 2023 13:00:00 GMT +0530 (India Standard Time)",
+      "name": "400m Relay Race",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "400m Relay Race"
+    },
+    {
+      "id": 13,
+      "compId": "COMP0013",
+      "incharge": "TEACH003",
+      "compType": "Sports",
+      "startDate": " Fri Oct 13 2022 11:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Fri Oct 13 2022 17:00:00 GMT +0530 (India Standard Time)",
+      "name": "Quater Finals",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Quater Finals of football competion"
+    },
+    {
+      "id": 14,
+      "compId": "COMP0014",
+      "incharge": "TEACH003",
+      "compType": "Sports",
+      "startDate": " Sat Oct 14 2022 11:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Sat Oct 14 2022 17:00:00 GMT +0530 (India Standard Time)",
+      "name": "Semi Finals",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Semi Finals of football competion"
+    },
+    {
+      "id": 15,
+      "compId": "COMP0015",
+      "incharge": "TEACH003",
+      "compType": "Sports",
+      "startDate": " Mon Oct 16 2022 13:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Mon Oct 16 2022 17:00:00 GMT +0530 (India Standard Time)",
+      "name": "Finals",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Finals of football COMPetion"
+    },
+    {
+      "id": 16,
+      "compId": "COMP0016",
+      "incharge": "TEACH003",
+      "compType": "Sports",
+      "startDate": " Mon Oct 16 2022 11:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Mon Oct 16 2022 17:00:00 GMT +0530 (India Standard Time)",
+      "name": "Quater Finals",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Quater Finals of Basketball competion"
+    },
+    {
+      "id": 17,
+      "compId": "COMP0017",
+      "incharge": "TEACH003",
+      "compType": "Sports",
+      "startDate": " Tue Oct 17 2022 11:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Tue Oct 17 2022 17:00:00 GMT +0530 (India Standard Time)",
+      "name": "Semi Finals",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Semi Finals of Basketball competion"
+    },
+    {
+      "id": 18,
+      "compId": "COMP0018",
+      "incharge": "TEACH003",
+      "compType": "Sports",
+      "startDate": " Wed Oct 18 2022 13:00:00 GMT +0530(India Standard Time)",
+      "endDate": "Wed Oct 18 2022 17:00:00 GMT +0530 (India Standard Time)",
+      "name": "Finals",
+      "coverImage": "/assets/images/event0.jpg",
+      "description": "Finals of Basketball COMPetion"
+    }
+  ],
+  "USERS": [
+    {
+      "id": 0,
+      "userId": "ADMIN000",
+      "name": "Admin Admin",
+      "userType": "admin",
+      "phone": "0000000000",
+      "email": "admin000@xyz.edu",
+      "username": "admin000",
+      "password": "0000",
+      "gender": "male",
+      "rollno": "NA",
+      "department": "NA"
+    },
+    {
+      "id": 1,
+      "userId": "ADMIN001",
+      "name": "Admin Admin",
+      "userType": "admin",
+      "phone": "0000000000",
+      "email": "admin001@xyz.edu",
+      "username": "admin001",
+      "password": "0000",
+      "gender": "male",
+      "rollno": "NA",
+      "department": "NA"
+    },
+    {
+      "id": 2,
+      "userId": "ADMIN002",
+      "name": "Admin Admin",
+      "userType": "admin",
+      "phone": "0000000000",
+      "email": "admin001@xyz.edu",
+      "username": "admin001",
+      "password": "0000",
+      "gender": "male",
+      "rollno": "NA",
+      "department": "NA"
+    },
+    {
+      "id": 3,
+      "userId": "ADMIN003",
+      "name": "Admin Admin",
+      "userType": "admin",
+      "phone": "0000000000",
+      "email": "admin003@xyz.edu",
+      "username": "admin003",
+      "password": "0003",
+      "gender": "male",
+      "rollno": "NA",
+      "department": "NA"
+    },
+    {
+      "id": 4,
+      "userId": "ADMIN004",
+      "name": "Admin Admin",
+      "userType": "admin",
+      "phone": "0000000000",
+      "email": "admin004@xyz.edu",
+      "username": "admin004",
+      "password": "0000",
+      "gender": "male",
+      "rollno": "NA",
+      "department": "NA"
+    },
+    {
+      "id": 5,
+      "userId": "TEACH000",
+      "name": "Reeta Bharadwaj",
+      "userType": "teacher",
+      "phone": "9876543210",
+      "email": "teacher000@xyz.edu",
+      "username": "reeta_bharadwaj000",
+      "password": "0000",
+      "gender": "female",
+      "rollno": "NA",
+      "department": "IT"
+    },
+    {
+      "id": 6,
+      "userId": "TEACH001",
+      "name": "Gagan Bharadwaj",
+      "userType": "teacher",
+      "phone": "9876543210",
+      "email": "teacher001@xyz.edu",
+      "username": "gagan_bharadwaj000",
+      "password": "0000",
+      "gender": "male",
+      "rollno": "NA",
+      "department": "IT"
+    },
+    {
+      "id": 7,
+      "userId": "TEACH002",
+      "name": "Raman Sharma",
+      "userType": "teacher",
+      "phone": "9876543210",
+      "email": "teach_two@xyz.edu",
+      "username": "teach_two",
+      "password": "0000",
+      "gender": "female",
+      "rollno": "NA",
+      "department": "CSE"
+    },
+    {
+      "id": 8,
+      "userId": "TEACH003",
+      "name": "Teach Three",
+      "userType": "teacher",
+      "phone": "9876543210",
+      "email": "teach_three@xyz.edu",
+      "username": "teach_three",
+      "password": "0000",
+      "gender": "male",
+      "rollno": "NA",
+      "department": "CSE"
+    },
+    {
+      "id": 9,
+      "userId": "TEACH004",
+      "name": "Teach Four",
+      "userType": "teacher",
+      "phone": "9876543210",
+      "email": "teacher004@xyz.edu",
+      "username": "teach_4",
+      "password": "0000",
+      "gender": "male",
+      "rollno": "NA",
+      "department": "ECE"
+    },
+    {
+      "id": 10,
+      "userId": "STU40319",
+      "name": "Aditya Jain",
+      "userType": "student",
+      "phone": "9876543210",
+      "email": "abc@xyz.edu",
+      "username": "aditya_jain1511",
+      "password": "0000",
+      "gender": "male",
+      "rollno": "1903814",
+      "department": "IT"
+    },
+    {
+      "id": 11,
+      "userId": "STU42019",
+      "name": "HarnoorDeep Singh",
+      "userType": "student",
+      "phone": "9876543210",
+      "email": "def@xyz.edu",
+      "username": "harnoor_singh0104",
+      "password": "0000",
+      "gender": "male",
+      "rollno": "1903832",
+      "department": "IT"
+    },
+    {
+      "id": 12,
+      "userId": "STU42119",
+      "name": "Harman Preet",
+      "userType": "student",
+      "phone": "9876543210",
+      "email": "def@xyz.edu",
+      "username": "harman0104",
+      "password": "0000",
+      "gender": "female",
+      "rollno": "1903833",
+      "department": "IT"
+    },
+    {
+      "id": 13,
+      "userId": "STU40719",
+      "name": "Deepesh Singh",
+      "userType": "student",
+      "phone": "9876543210",
+      "email": "def@xyz.edu",
+      "username": "deep_singh0104",
+      "password": "0000",
+      "gender": "male",
+      "rollno": "1903818",
+      "department": "IT"
+    },
+    {
+      "id": 14,
+      "userId": "STU40119",
+      "name": "Aastha Narula",
+      "userType": "student",
+      "phone": "9876543210",
+      "email": "def@xyz.edu",
+      "username": "aasthanarula",
+      "password": "0000",
+      "gender": "female",
+      "rollno": "1903812",
+      "department": "IT"
+    },
+    {
+      "id": 15,
+      "userId": "STU40219",
+      "name": "Aadit kumar",
+      "userType": "student",
+      "phone": "9876543210",
+      "email": "def@xyz.edu",
+      "username": "aadit",
+      "password": "0000",
+      "gender": "male",
+      "rollno": "1903813",
+      "department": "IT"
+    },
+    {
+      "id": 16,
+      "userId": "STU40419",
+      "name": "Akil Mehta",
+      "userType": "student",
+      "phone": "9876543210",
+      "email": "def@xyz.edu",
+      "username": "akilmehta",
+      "password": "0000",
+      "gender": "male",
+      "rollno": "1903815",
+      "department": "IT"
+    },
+    {
+      "id": 17,
+      "userId": "STU30119",
+      "name": "Harnoor Gandhi",
+      "userType": "student",
+      "phone": "9876543210",
+      "email": "def@xyz.edu",
+      "username": "harnoor_gandhi0104",
+      "password": "0000",
+      "gender": "male",
+      "rollno": "1903701",
+      "department": "CSE"
+    },
+    {
+      "id": 18,
+      "userId": "STU30219",
+      "name": "segal chadha",
+      "userType": "student",
+      "phone": "9876543210",
+      "email": "def@xyz.edu",
+      "username": "segalc",
+      "password": "0000",
+      "gender": "male",
+      "rollno": "1903702",
+      "department": "CSE"
+    },
+    {
+      "id": 19,
+      "userId": "STU30319",
+      "name": "anshika kohli",
+      "userType": "student",
+      "phone": "9876543210",
+      "email": "def@xyz.edu",
+      "username": "anshu_k",
+      "password": "0000",
+      "gender": "female",
+      "rollno": "1903820",
+      "department": "CSE"
+    },
+    {
+      "id": 20,
+      "userId": "STU30419",
+      "name": "anamika chauhan",
+      "userType": "student",
+      "phone": "9876543210",
+      "email": "def@xyz.edu",
+      "username": "anna_ch",
+      "password": "0000",
+      "gender": "female",
+      "rollno": "1903834",
+      "department": "CSE"
+    },
+    {
+      "id": 21,
+      "userId": "STU30519",
+      "name": "Shruti Garg",
+      "userType": "student",
+      "phone": "9876543210",
+      "email": "def@xyz.edu",
+      "username": "shruti_garg1311",
+      "password": "0000",
+      "gender": "female",
+      "rollno": "1903836",
+      "department": "CSE"
+    },
+    {
+      "id": 22,
+      "userId": "TEST0619",
+      "name": "test Test",
+      "userType": "student",
+      "phone": "9876543210",
+      "email": "def@xyz.edu",
+      "username": "test001",
+      "password": "0000",
+      "gender": "male",
+      "rollno": "1903837",
+      "department": "CSE"
+    },
+    {
+      "id": 23,
+      "userId": "Test0719",
+      "name": "test test02",
+      "userType": "student",
+      "phone": "9876543210",
+      "email": "def@xyz.edu",
+      "username": "test002",
+      "password": "0000",
+      "gender": "female",
+      "rollno": "1903838",
+      "department": "ECE"
+    },
+    {
+      "id": 24,
+      "userId": "TEACH005",
+      "name": "Vishal Rao",
+      "userType": "teacher",
+      "phone": "9876543210",
+      "email": "teacher005@xyz.edu",
+      "username": "vishal_rao",
+      "password": "0000",
+      "gender": "male",
+      "rollno": "NA",
+      "department": "ECE"
+    },
+    {
+      "name": "Aditya Jain2",
+      "userId": "STUDENT111",
+      "userType": "student",
+      "phone": "+918146004174",
+      "email": "adityajain64@gmail.com",
+      "username": "aditya12345",
+      "password": "0000",
+      "gender": "male",
+      "rollno": "0000001",
+      "department": "ECE",
+      "id": 25
+    },
+    {
+      "name": "Ayush Mahajan",
+      "userId": "STU41219",
+      "userType": "",
+      "phone": "9876543210",
+      "email": "ayush_mahajan@gmail.com",
+      "username": "ayush_mahajan",
+      "password": "0000",
+      "gender": "",
+      "rollno": "1000001",
+      "department": "IT",
+      "id": 26
+    }
+  ],
+  "DEPARTMENTS": [
+    {
+      "id": 0,
+      "departId": "IT",
+      "hod": "TEACH000"
+    },
+    {
+      "id": 1,
+      "departId": "CSE",
+      "hod": "TEACH001"
+    },
+    {
+      "id": 2,
+      "departId": "ECE",
+      "hod": "TEACH002"
+    },
+    {
+      "id": 4,
+      "departId": "CULTURE",
+      "hod": "TEACH003"
+    },
+    {
+      "id": 5,
+      "departId": "SPORTS",
+      "hod": "TEACH004"
+    },
+    {
+      "id": 6,
+      "departId": "TPO",
+      "hod": "TEACH005"
+    }
+  ],
+  "VENUES": [
+    {
+      "id": 0,
+      "venueId": "VENUE000",
+      "location": "Sports Ground"
+    },
+    {
+      "id": 1,
+      "venueId": "VENUE001",
+      "location": "Auditorium"
+    },
+    {
+      "id": 2,
+      "venueId": "VENUE002",
+      "location": "C-Hall"
+    },
+    {
+      "id": 3,
+      "venueId": "VENUE003",
+      "location": "Seminar Hall"
+    }
+  ],
+  "EVENT_INCHARGE": [
+    {
+      "id": 0,
+      "eventId": 0,
+      "userId": 5
+    },
+    {
+      "id": 1,
+      "eventId": 1,
+      "userId": 7
+    },
+    {
+      "id": 2,
+      "eventId": 2,
+      "userId": 24
+    },
+    {
+      "id": 3,
+      "eventId": 3,
+      "userId": 7
+    },
+    {
+      "id": 4,
+      "eventId": 4,
+      "userId": 9
+    },
+    {
+      "id": 5,
+      "eventId": 5,
+      "userId": 8
+    },
+    {
+      "id": 6,
+      "eventId": 6,
+      "userId": 8
+    },
+    {
+      "id": 7,
+      "eventId": 7,
+      "userId": 5
+    },
+    {
+      "eventId": 8,
+      "userId": 7,
+      "id": 8
+    },
+    {
+      "eventId": 9,
+      "userId": 5,
+      "id": 9
+    }
+  ],
+  "EVENT_COMP": [
+    {
+      "id": 0,
+      "eventId": 0,
+      "compId": 0
+    },
+    {
+      "id": 1,
+      "eventId": 0,
+      "compId": 1
+    },
+    {
+      "id": 2,
+      "eventId": 0,
+      "compId": 2
+    },
+    {
+      "id": 3,
+      "eventId": 0,
+      "compId": 3
+    },
+    {
+      "id": 4,
+      "eventId": 0,
+      "compId": 4
+    },
+    {
+      "id": 5,
+      "eventId": 1,
+      "compId": 5
+    },
+    {
+      "id": 6,
+      "eventId": 1,
+      "compId": 6
+    },
+    {
+      "id": 7,
+      "eventId": 1,
+      "compId": 7
+    },
+    {
+      "id": 8,
+      "eventId": 1,
+      "compId": 8
+    },
+    {
+      "id": 9,
+      "eventId": 1,
+      "compId": 9
+    },
+    {
+      "id": 10,
+      "eventId": 1,
+      "compId": 10
+    },
+    {
+      "id": 11,
+      "eventId": 4,
+      "compId": 11
+    },
+    {
+      "id": 12,
+      "eventId": 4,
+      "compId": 12
+    },
+    {
+      "id": 13,
+      "eventId": 5,
+      "compId": 13
+    },
+    {
+      "id": 14,
+      "eventId": 5,
+      "compId": 14
+    },
+    {
+      "id": 15,
+      "eventId": 5,
+      "compId": 15
+    },
+    {
+      "id": 16,
+      "eventId": 6,
+      "compId": 16
+    },
+    {
+      "id": 17,
+      "eventId": 6,
+      "compId": 17
+    },
+    {
+      "id": 18,
+      "eventId": 6,
+      "compId": 18
+    }
+  ],
+  "FEEDBACK": [
+    {
+      "name": "Reeta Bharadwaj",
+      "userId": "TEACH000",
+      "username": "reeta_bharadwaj000",
+      "email": "teacher000@xyz.edu",
+      "message": "jjj",
+      "id": 1
+    },
+    {
+      "name": "Aditya Jain",
+      "userId": "STU40319",
+      "username": "aditya_jain1511",
+      "email": "abc@xyz.edu",
+      "message": "nice work",
+      "id": 2
+    }
+  ],
+  "COMP_VENUE" : [
+		{
+		      "id" : 0,
+		      "venueId" : 1,
+		      "compId" :0
+		},
+		{
+		      "id" : 1,
+		      "venueId" : 1,
+		      "compId" :1
+		},
+		{
+		      "id" : 2,
+		      "venueId" : 1,
+		      "compId" : 2
+		},
+		{
+		      "id" : 3,
+		      "venueId" : 1,
+		      "compId" :3
+		},
+		{
+		      "id" : 4,
+		      "venueId" : 1,
+		      "compId" : 4
+		},
+		{
+		      "id" : 5,
+		      "venueId" : 1,
+		      "compId" : 5
+		},
+		{
+		      "id" : 6,
+		      "venueId" : 1,
+		      "compId" : 6
+		},
+		{
+		      "id" : 7,
+		      "venueId" : 1,
+		      "compId" : 7
+		},
+		{
+		      "id" : 8,
+		      "venueId" : 1,
+		      "compId" : 8
+		},
+		{
+		      "id" : 9,
+		      "venueId" : 0,
+		      "compId" : 9
+		},
+		{
+		      "id" : 10,
+		      "venueId" : 1,
+		      "compId" : 10
+		},
+		{
+		      "id" : 11,
+		      "venueId" : 0,
+		      "compId" : 11
+		},
+		{
+		      "id" : 12,
+		      "venueId" : 0,
+		      "compId" : 12
+		},
+		{
+		      "id" : 13,
+		      "venueId" : 0,
+		      "compId" : 13
+		},
+		{
+		      "id" : 14,
+		      "venueId" : 0,
+		      "compId" : 14
+		},
+		{
+		      "id" : 15,
+		      "venueId" : 0,
+		      "compId" : 15
+		},
+		{
+		      "id" : 16,
+		      "venueId" : 0,
+		      "compId" : 16
+		},
+		{
+		      "id" : 17,
+		      "venueId" : 0,
+		      "compId" : 17
+		},
+		{
+		      "id" : 18,
+		      "venueId" : 0,
+		      "compId" : 18
+		}
+  ],
+  "EVENT_VENUE": [
+    {
+      "id": 0,
+      "venueId": 1,
+      "eventId": 0
+    },
+    {
+      "id": 1,
+      "venueId": 1,
+      "eventId": 1
+    },
+    {
+      "id": 2,
+      "venueId": 3,
+      "eventId": 2
+    },
+    {
+      "id": 3,
+      "venueId": 1,
+      "eventId": 3
+    },
+    {
+      "id": 4,
+      "venueId": 0,
+      "eventId": 4
+    },
+    {
+      "id": 5,
+      "venueId": 0,
+      "eventId": 5
+    },
+    {
+      "id": 6,
+      "venueId": 0,
+      "eventId": 6
+    },
+    {
+      "id": 7,
+      "venueId": 3,
+      "eventId": 7
+    },
+    {
+      "eventId": 8,
+      "venueId": 1,
+      "id": 8
+    },
+    {
+      "eventId": 9,
+      "venueId": 0,
+      "id": 9
+    }
+  ],
+  "COMP_INCHARGE" : [
+		{
+		     "id" : 0,
+		     "compId" : 0, 
+		     "incharge" : 0
+		},
+		{
+		     "id" : 1,
+		     "compId" : 1, 
+		     "incharge" : 0
+		},
+		{
+		     "id" : 2,
+		     "compId" : 2, 
+		     "incharge" : 0
+		},
+		{
+		     "id" : 3,
+		     "compId" : 3, 
+		     "incharge" : 0
+		},
+		{
+		     "id" : 4,
+		     "compId" : 4, 
+		     "incharge" : 0
+		},
+		{
+		     "id" : 5,
+		     "compId" : 5, 
+		     "incharge" : 2
+		},
+		{
+		     "id" : 6,
+		     "compId" : 6, 
+		     "incharge" : 2
+		},
+		{
+		     "id" : 7,
+		     "compId" : 7, 
+		     "incharge" : 2
+		},
+		{
+		     "id" : 8,
+		     "compId" : 8, 
+		     "incharge" : 2
+		},
+		{
+		     "id" : 9,
+		     "compId" : 9, 
+		     "incharge" : 2
+		},
+		{
+		     "id" : 10,
+		     "compId" : 10, 
+		     "incharge" : 2
+		},
+		{
+		     "id" : 11,
+		     "compId" : 11, 
+		     "incharge" : 4
+		},
+		{
+		     "id" : 12,
+		     "compId" : 12, 
+		     "incharge" : 4
+		},
+		{
+		     "id" : 13,
+		     "compId" : 13, 
+		     "incharge" : 3
+		},
+		{
+		     "id" : 14,
+		     "compId" : 14, 
+		     "incharge" : 3
+		},
+		{
+		     "id" : 15,
+		     "compId" : 15, 
+		     "incharge" : 3
+		},
+		{
+		     "id" : 16,
+		     "compId" : 16, 
+		     "incharge" : 3
+		},
+		{
+		     "id" : 17,
+		     "compId" : 17, 
+		     "incharge" : 3
+		},
+		{
+		     "id" : 18,
+		     "compId" : 18, 
+		     "incharge" : 3
+		}
+  ],
+  "TEAM_USERS" : [
+		{
+		"id" : 0,
+		"teamId" : 0,
+		"userId" : 10,
+		"teamName" : "Team Red"
+		},
+		{
+		"id" : 1,
+		"teamId" : 0,
+		"userId" : 11,
+		"teamName" : "Team Red"
+		},
+		{
+		"id" : 2,
+		"teamId" : 0,
+		"userId" : 21,
+		"teamName" : "Team Red"
+		},
+		{
+		"id" : 3,
+		"teamId" : 1,
+		"userId" : 17,
+		"teamName" : "Team Blue"
+		},
+		{
+		"id" : 4,
+		"teamId" : 1,
+		"userId" : 19,
+		"teamName" : "Team Blue"
+		},
+		{
+		"id" : 5,
+		"teamId" : 1,
+		"userId" : 20,
+		"teamName" : "Team Blue"
+		},
+		{
+		"id" : 0,
+		"teamId" : 2,
+		"userId" : 14,
+		"teamName" : "Team Yellow"
+		},
+		{
+		"id" : 1,
+		"teamId" : 2,
+		"userId" : 15,
+		"teamName" : "Team Yellow"
+		},
+		{
+		"id" : 2,
+		"teamId" : 2,
+		"userId" : 16,
+		"teamName" : "Team Yellow"
+		}
+  ],
+  "COMP_TEAMS" : [
+		{
+		"id": 0,
+		"compId": 6,
+		"teamId": 0
+		},
+		{
+		"id": 1,
+		"compId": 6,
+		"teamId": 1
+		},
+		{
+		"id": 2,
+		"compId": 6,
+		"teamId": 2
+		}
+  ],
+  "EVENT_VOL": [
+    {
+      "id": 0,
+      "eventId": 6,
+      "teamId": 15
+      },
+      {
+      "id": 1,
+      "eventId": 6,
+      "teamId": 16
+      },
+      {
+      "id": 2,
+      "eventId": 6,
+      "teamId": 17
+      }
+  ],
+  "COMP_VOL": [
+    {
+      "id": 0,
+      "compId": 6,
+      "teamId": 15
+      },
+      {
+      "id": 1,
+      "compId": 6,
+      "teamId": 16
+      },
+      {
+      "id": 2,
+      "compId": 6,
+      "teamId": 17
+      }
+  ]
 }
